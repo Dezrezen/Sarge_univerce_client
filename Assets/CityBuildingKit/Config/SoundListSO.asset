@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b3525e3ef24b968762c99980341eba, type: 3}
+  m_Name: SoundListSO
+  m_EditorClassIdentifier: 
+  _sound_instance_prefab: {fileID: 3785348186375697357, guid: 4242fac7729e9254ba40d7d210055ce1, type: 3}
+  _sounds:
+  - sound_name: main_theme
+    clip: {fileID: 8300000, guid: 9f881fff59cc554458a07e6a657941a9, type: 3}
+    volume: 0.7
+  - sound_name: battle_theme
+    clip: {fileID: 8300000, guid: cec9fa1fdedae47acbcddcf9181a6bea, type: 3}
+    volume: 0.7
+  - sound_name: click
+    clip: {fileID: 8300000, guid: 08e494a63b759ac40a560fdbbc3440cb, type: 3}
+    volume: 0.7
+  - sound_name: rifleman_shoot
+    clip: {fileID: 8300000, guid: 4e9dd4528e37969468c851a2359738d4, type: 3}
+    volume: 0.7
+  - sound_name: grenadier_shoot
+    clip: {fileID: 8300000, guid: 754d2deb5db83074db038a0b203451be, type: 3}
+    volume: 0.7
+  - sound_name: rocketman_shoot
+    clip: {fileID: 8300000, guid: c2702b9badf638d408162a740079d90e, type: 3}
+    volume: 0.7
+  - sound_name: building_explosion
+    clip: {fileID: 8300000, guid: 3d97ed4cb1786234e9f29dc9fd805a51, type: 3}
+    volume: 0.7
+  - sound_name: watchtower_shoot
+    clip: {fileID: 8300000, guid: 8fc7f0d4aa417d943945531395b5da75, type: 3}
+    volume: 0.7
+  - sound_name: smalltank_shoot
+    clip: {fileID: 8300000, guid: c79939de94ddea34db6826f7bb73af38, type: 3}
+    volume: 0.7
+  - sound_name: buggy_shoot
+    clip: {fileID: 8300000, guid: 26a580e71d8729844a7ed94530f7c474, type: 3}
+    volume: 0.7
+  - sound_name: helicopter_shoot
+    clip: {fileID: 8300000, guid: 90ae7502c5ce90b45be94f50d5afa15a, type: 3}
+    volume: 0.7
+  - sound_name: projectile_explosion
+    clip: {fileID: 8300000, guid: 1e2aacd4e93b88241b85fc61dbb1c7f6, type: 3}
+    volume: 0.7
+  - sound_name: barracks_sound
+    clip: {fileID: 8300000, guid: b45b23bda4a778e4e819c90048f1c93e, type: 3}
+    volume: 0.7
+  - sound_name: mine_sound
+    clip: {fileID: 8300000, guid: 1f99b867ee503d7449df779db1b3e5ae, type: 3}
+    volume: 0.7
+  - sound_name: powerplant_sound
+    clip: {fileID: 8300000, guid: 4f72797d5215e584bb88dfd506a11f71, type: 3}
+    volume: 0.7
+  - sound_name: rocketturret_sound
+    clip: {fileID: 8300000, guid: f8b43511ae3a4ad43a74c15f4bd4960b, type: 3}
+    volume: 0.7
+  - sound_name: supplydrop_sound
+    clip: {fileID: 8300000, guid: e390ecdb757eb51429d6bd7433798164, type: 3}
+    volume: 0.7
+  - sound_name: trainingcamp_sound
+    clip: {fileID: 8300000, guid: 0ff70ba885c1d044282904cbce57a66f, type: 3}
+    volume: 0.7
+  - sound_name: watchtower_sound
+    clip: {fileID: 8300000, guid: 3e9fb01930eed1e40b8486e8770c6a0d, type: 3}
+    volume: 0.7

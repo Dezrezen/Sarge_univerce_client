@@ -1,0 +1,562 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6718ce168e3b452eaf48f719904eeb20, type: 3}
+  m_Name: BuildingsConfig
+  m_EditorClassIdentifier: 
+  buildings:
+  - Name: Builder Station
+    buildingPrefab: {fileID: 5392840119783297994, guid: 45ca7ccad5447a344af03f63330c3dd0, type: 3}
+    opponentPrefab: {fileID: 3064957476850624631, guid: 47adeee50aea2e54fb7c629aaae3730a, type: 3}
+    buildingId: 5
+    buildingType: 1
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 862fb303a7a5ed14f8a76d9eb9219cad, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: d2c3af7350edda4488a60bf424c1114c, type: 3}
+  - Name: Hq
+    buildingPrefab: {fileID: 7401922223903786851, guid: 614748dcda098be438287d1322abfd3e, type: 3}
+    opponentPrefab: {fileID: 6476591734148590113, guid: 5b0b0caeb51eff04987d7f06d2243093, type: 3}
+    buildingId: 0
+    buildingType: 0
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 059d7e4d22378c5448dee471c2ecadba, type: 3}
+    - {fileID: 21300000, guid: ecb770a3f25b98a46a5f1c8c2347ad40, type: 3}
+    - {fileID: 21300000, guid: 691b29d5529d3a645b22127f5b8b201e, type: 3}
+    - {fileID: 21300000, guid: 920130a7a5e53bb43b1f0040440f4379, type: 3}
+    - {fileID: 21300000, guid: 818eb860f9396dd41a6a6f79a886035a, type: 3}
+    - {fileID: 21300000, guid: 3744129ac1d35b2409e3557b99057ae5, type: 3}
+    - {fileID: 21300000, guid: 7fb92e6edfc179b4f9eeff8754fd2cdc, type: 3}
+    - {fileID: 21300000, guid: eb86c4b49816c6141815cdf52f22bdea, type: 3}
+    - {fileID: 21300000, guid: 39adf8c2d349faa4e9019661dcab6463, type: 3}
+    - {fileID: 21300000, guid: dd868bbb0850c8a4fba0a940fedc3610, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 72e3a9b612689454a99261ed8acb224a, type: 3}
+    - {fileID: 21300000, guid: 4f3bc2fc3b30cc241bfb6f2e5ea0a9b4, type: 3}
+    - {fileID: 21300000, guid: b8969b98b25a731439514a60148afcd8, type: 3}
+    - {fileID: 21300000, guid: 738128fd6b0a95b48988d1bfb0cad08c, type: 3}
+    - {fileID: 21300000, guid: a639205578b761448a86f690cc96b08d, type: 3}
+    - {fileID: 21300000, guid: 2d45accdd6285094584d23afc41bc5c3, type: 3}
+    - {fileID: 21300000, guid: 74b08522af66c89408027d4f7288ec2f, type: 3}
+    - {fileID: 21300000, guid: b94c7d93888d19b4684ea2199cbc983e, type: 3}
+    - {fileID: 21300000, guid: 8405606e41f755c4b8701753a8b85e68, type: 3}
+    - {fileID: 21300000, guid: 15b110bb7d4b39b46b715597b36a768c, type: 3}
+  - Name: Barracks
+    buildingPrefab: {fileID: 1173936215210824910, guid: 99b3fb54b3284524b993bacd45927209, type: 3}
+    opponentPrefab: {fileID: -4543418147495991855, guid: 7845bb427839f7e488cafa0b0ce77715, type: 3}
+    buildingId: 7
+    buildingType: 2
+    playerLevelSprites:
+    - {fileID: 21300000, guid: f3a5f66e64dc2014aab907f05853cbf2, type: 3}
+    - {fileID: 21300000, guid: 08cb61c2b96c00a47bc7da5e66bdd3b3, type: 3}
+    - {fileID: 21300000, guid: e1a221e2f9afb634f866d3803c2f7b3c, type: 3}
+    - {fileID: 21300000, guid: 483dc752b45649f4aabef61be9ce993c, type: 3}
+    - {fileID: 21300000, guid: 39858e7d92a54c54bb50b338a0387e3d, type: 3}
+    - {fileID: 21300000, guid: fad8f6d6dfc28794392cc4e779cff7fe, type: 3}
+    - {fileID: 21300000, guid: 7cbed8526699fdd4ebb4460fc40d6d62, type: 3}
+    - {fileID: 21300000, guid: 41c64bf635b0eea40941ba1a5937a855, type: 3}
+    - {fileID: 21300000, guid: 9a24acde11dc95e4dba21435e6623731, type: 3}
+    - {fileID: 21300000, guid: da89cddb16b4ee84e8cd184baf890253, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 19092c3d07eb32b4490fb9e6ff823732, type: 3}
+    - {fileID: 21300000, guid: 2022d1fc3e4e39d48815f4dfa547194f, type: 3}
+    - {fileID: 21300000, guid: 313facfb16dd8764db388c525a230e7a, type: 3}
+    - {fileID: 21300000, guid: 3d760c769d9213f4aaf2677e6a64c9ab, type: 3}
+    - {fileID: 21300000, guid: df1fc8efd7806264482ceea37d5f137b, type: 3}
+    - {fileID: 21300000, guid: 8258222cced683640ae8bae42192141e, type: 3}
+    - {fileID: 21300000, guid: 1aec9987c932964448ee1a8724c55e36, type: 3}
+    - {fileID: 21300000, guid: fdd401122b54fdb4db5df02c4d5c963d, type: 3}
+    - {fileID: 21300000, guid: 397ec26070449ab40b84f6411068a129, type: 3}
+    - {fileID: 21300000, guid: a10b64affdc0f0042a5ae025b6c23d15, type: 3}
+  - Name: Training Camp
+    buildingPrefab: {fileID: 6809899245507118090, guid: 8701bc15514d796429265fa148bade85, type: 3}
+    opponentPrefab: {fileID: 2518326556641581718, guid: f57fd526d5c548e4bb354ed3cb6930ec, type: 3}
+    buildingId: 6
+    buildingType: 2
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 1257bc716bddb8a4695edb4ec212abe9, type: 3}
+    - {fileID: 21300000, guid: 62ce9f907ba98194f9102bf560158a88, type: 3}
+    - {fileID: 21300000, guid: a9c2e8830323bff48980143ee23c979f, type: 3}
+    - {fileID: 21300000, guid: 35e8180df0491704b81ca4ff5e797901, type: 3}
+    - {fileID: 21300000, guid: 5f9500dcdad5fbb4ea372ddd71096546, type: 3}
+    - {fileID: 21300000, guid: 5068f1d6e03bd6948952ad994980fdb0, type: 3}
+    - {fileID: 21300000, guid: 4f5167974a605a648b620b1eae0c8c0a, type: 3}
+    - {fileID: 21300000, guid: b8a5435cd0c436449b6c299764d86561, type: 3}
+    - {fileID: 21300000, guid: f728b18a6d77ab44d9be5df9a91324ce, type: 3}
+    - {fileID: 21300000, guid: 450f514f423420d4ab3b89893fc5b9b2, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 20492f65988ed20449352d437bf8d370, type: 3}
+    - {fileID: 21300000, guid: 79e2b967a26e384458933863b2ebc79b, type: 3}
+    - {fileID: 21300000, guid: dfefb2e8f0cd4054d81a31e3d3eb1e35, type: 3}
+    - {fileID: 21300000, guid: 214d8be8e87eaa54f808ef5000ac061b, type: 3}
+    - {fileID: 21300000, guid: 144684cdb96bfd54b8aafece31404a8e, type: 3}
+    - {fileID: 21300000, guid: e64694937f4202749be12851ce3dbb69, type: 3}
+    - {fileID: 21300000, guid: 400fb447a964a1241864b89c129bc010, type: 3}
+    - {fileID: 21300000, guid: a8a072feebb29f043882024b09865ed5, type: 3}
+    - {fileID: 21300000, guid: 3a954f10f28e10547b77e3563218203e, type: 3}
+    - {fileID: 21300000, guid: a12ec78b5a75b58488cbe28552f0f1ba, type: 3}
+  - Name: Armoury
+    buildingPrefab: {fileID: 7427640844658038926, guid: 0ee90def61e9cf740848fdce33676638, type: 3}
+    opponentPrefab: {fileID: -8254250547833401227, guid: 5f619a52bf7fdde48ada494046fdbe39, type: 3}
+    buildingId: 8
+    buildingType: 2
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 13f1aa2bab21c3642bd5e6f487826e2c, type: 3}
+    - {fileID: 21300000, guid: 342ab42e53d683a449675ecfa09303c6, type: 3}
+    - {fileID: 21300000, guid: 71bac6ca1803d0c4ba65fe051f47aaf2, type: 3}
+    - {fileID: 21300000, guid: 6355747fca80c264ba4cde765f3b44be, type: 3}
+    - {fileID: 21300000, guid: 2af31530443cf7f439711a3b171be2a5, type: 3}
+    - {fileID: 21300000, guid: ec79eb27e008c1547b9f66acf30d433c, type: 3}
+    - {fileID: 21300000, guid: 0ce2948aec7815b428878b7ca0d682b4, type: 3}
+    - {fileID: 21300000, guid: 68ee582e486dfe7429b10cfba9f09741, type: 3}
+    - {fileID: 21300000, guid: 91e012b3de9d9ff4585d273a53baec4b, type: 3}
+    - {fileID: 21300000, guid: 909d71a3b7910b34eaf59b04eda09971, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: dbad46db6b73600409a5fcc5bd3fb08b, type: 3}
+    - {fileID: 21300000, guid: 5c2ffb9fe2c511d4ca57a2b4790f12ef, type: 3}
+    - {fileID: 21300000, guid: 0b9fc3e303e5f1749829c30b78c8caf5, type: 3}
+    - {fileID: 21300000, guid: 831c5671ca56ad1488ae10f0df4f2559, type: 3}
+    - {fileID: 21300000, guid: f5833f02ac1ed24469340f9868873209, type: 3}
+    - {fileID: 21300000, guid: 1b7b3a5765e47784cbd480236c93ae2e, type: 3}
+    - {fileID: 21300000, guid: 8dfc10ad780cdf5449a65ca2c7201397, type: 3}
+    - {fileID: 21300000, guid: 846651e5ce5a5394da333d491fe02bb7, type: 3}
+    - {fileID: 21300000, guid: f5d2425726724ea4faa9e1be5635ee65, type: 3}
+    - {fileID: 21300000, guid: 1c7f8197fef78a343807c2e3d15acfd7, type: 3}
+  - Name: Sarge Location
+    buildingPrefab: {fileID: 8141875100183030468, guid: 657ac12577ead0749bb62a473b17ad80, type: 3}
+    opponentPrefab: {fileID: -159429418168201959, guid: 43d71adae06962f4c988f5516a2fb891, type: 3}
+    buildingId: 15
+    buildingType: 2
+    playerLevelSprites:
+    - {fileID: 21300000, guid: dd443d0f028b2ef48875ce7b1c41d49a, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 587ef431722a5314ba42366995b265d4, type: 3}
+  - Name: Supply Drop
+    buildingPrefab: {fileID: 4772361836539508055, guid: 2530db5e61f94e24d9f4511c34b79c66, type: 3}
+    opponentPrefab: {fileID: 1631206396707319073, guid: e1984314eaa7c4940817a62c4f7996aa, type: 3}
+    buildingId: 1
+    buildingType: 3
+    playerLevelSprites:
+    - {fileID: 21300000, guid: c40af8aebd49d3248b2ec6a2b531d890, type: 3}
+    - {fileID: 21300000, guid: 93869d42277588a4f9b6be443f1ddc90, type: 3}
+    - {fileID: 21300000, guid: dfa589de0cba6c846a7a743ae2fc9f3f, type: 3}
+    - {fileID: 21300000, guid: 2b1701ff1e25c804f9c1009049dc62ff, type: 3}
+    - {fileID: 21300000, guid: 21f45c89a70889540bde2a35e1d81a93, type: 3}
+    - {fileID: 21300000, guid: e2dec37a9068f2144a0d5433c2ccaf1d, type: 3}
+    - {fileID: 21300000, guid: 6e74f5a0bd7326346877e0ece94c02f2, type: 3}
+    - {fileID: 21300000, guid: d48a32dd9651b4e479e05a8d15441ce9, type: 3}
+    - {fileID: 21300000, guid: b31daa0190b67924b9eb10e973c2d387, type: 3}
+    - {fileID: 21300000, guid: 15cdb5a587365904a839537db2732f33, type: 3}
+    - {fileID: 21300000, guid: 5f851a05b5bb584459afaeb597b16ace, type: 3}
+    - {fileID: 21300000, guid: bb2894a12593ab748a1b3bc64bf889d9, type: 3}
+    - {fileID: 21300000, guid: 3535f1b939f269d42bface30ec9c55e2, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: c2602c2a4e512ff47b79699b4b5d1417, type: 3}
+    - {fileID: 21300000, guid: 8cb543a54f948ff4aaae830de001bb3a, type: 3}
+    - {fileID: 21300000, guid: 134084992fe2e594dbb4832c6eab3688, type: 3}
+    - {fileID: 21300000, guid: 5ed06108ddd9fc04e9edc0adfeefebe4, type: 3}
+    - {fileID: 21300000, guid: 2c7c5e620f6576e4ebaa88130eeafa44, type: 3}
+    - {fileID: 21300000, guid: 52a86c62f608c464db066a96c089ae5b, type: 3}
+    - {fileID: 21300000, guid: 6ca27a558d2a1124e906ffe00fb3b700, type: 3}
+    - {fileID: 21300000, guid: 28e718a79286dc344ab31293d1cf6ecf, type: 3}
+    - {fileID: 21300000, guid: 547fb2ba7a30b49479b2f1996eded2d6, type: 3}
+    - {fileID: 21300000, guid: 79a3a96265dd71b418abba63b0112563, type: 3}
+    - {fileID: 21300000, guid: 3d33139008eff9e44852e298136dd0a6, type: 3}
+    - {fileID: 21300000, guid: b072d5b4c409ed841af7a4dc6bf88a3b, type: 3}
+    - {fileID: 21300000, guid: 14bea9e0a8e852a4db06c24d38e34ebb, type: 3}
+  - Name: Power Plant
+    buildingPrefab: {fileID: 3207028747879494878, guid: 1fd6283dd731ce742b7a5d30ca5b8021, type: 3}
+    opponentPrefab: {fileID: 8755124490150541062, guid: 8ccfe1c14bcd74b4cb041b2b49302b4b, type: 3}
+    buildingId: 3
+    buildingType: 3
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 8bc862a805151c0418d35186c0c6ce71, type: 3}
+    - {fileID: 21300000, guid: db458e6feb4dafe4b802e7692e2f39f3, type: 3}
+    - {fileID: 21300000, guid: 2d8b6dccd238b7e4b8640b9fdaa6ea30, type: 3}
+    - {fileID: 21300000, guid: 8b9a020206e0d1247a9f882c7195e7f1, type: 3}
+    - {fileID: 21300000, guid: ad653bdad3c103c49b19245fef86a980, type: 3}
+    - {fileID: 21300000, guid: 137edd8d26e7c5445ad8e074a985c701, type: 3}
+    - {fileID: 21300000, guid: 565f665ed7450504e86229dabb32cd40, type: 3}
+    - {fileID: 21300000, guid: d9b66626debe3c243836921c9494e082, type: 3}
+    - {fileID: 21300000, guid: eb38a62d90245fc4fb71190487d5c51f, type: 3}
+    - {fileID: 21300000, guid: d6b79bb7e1d8f864e95a3df525ee19fe, type: 3}
+    - {fileID: 21300000, guid: f020448253a7e0245b1bbf73d37fa552, type: 3}
+    - {fileID: 21300000, guid: e55b4939965e9a646bef337efc058533, type: 3}
+    - {fileID: 21300000, guid: 99b6b1207ea0ffb45946738950861cce, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 2cbd3328c558f6e4ba88a1f6829104f2, type: 3}
+    - {fileID: 21300000, guid: 96c5d3f3cf64ebc47b91eb5d62458235, type: 3}
+    - {fileID: 21300000, guid: 54b5319e8bcd8e2458de5661510c2b5f, type: 3}
+    - {fileID: 21300000, guid: 30f656bb0c82ade48a5807a023cb6628, type: 3}
+    - {fileID: 21300000, guid: eeb08c7f9e68c794ca8e0ce573e7ee54, type: 3}
+    - {fileID: 21300000, guid: 5a9176c5fe245f44187f80f6ef89377f, type: 3}
+    - {fileID: 21300000, guid: 2bb9a067571288e40b400fde5029e139, type: 3}
+    - {fileID: 21300000, guid: 406c7923b177f674cb3c823a88b17cfa, type: 3}
+    - {fileID: 21300000, guid: dbbeb3ee4a5e51046b98f26a124c3c9b, type: 3}
+    - {fileID: 21300000, guid: 74fb9009c2ad37943909dab037d0d649, type: 3}
+    - {fileID: 21300000, guid: cd7c57baed314f642b134adc8a0479e7, type: 3}
+    - {fileID: 21300000, guid: 142251e986ee7b34b8bcf784fef11341, type: 3}
+    - {fileID: 21300000, guid: 29fa16865033ba640a71eb044aded2c7, type: 3}
+  - Name: Supply Vault
+    buildingPrefab: {fileID: 1961708378484524904, guid: 2bd0584aff6d1504fa1ac2aba6e1550b, type: 3}
+    opponentPrefab: {fileID: -1841497907247807018, guid: e17f821c00033924e9202c8963044f29, type: 3}
+    buildingId: 2
+    buildingType: 3
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 6de18b9400889ac4abdbb0329cfdda86, type: 3}
+    - {fileID: 21300000, guid: 0790090397db6f64bae520f633700bcd, type: 3}
+    - {fileID: 21300000, guid: 8d81dac5c5deebe4fa49db00f3051ddf, type: 3}
+    - {fileID: 21300000, guid: 9c0686dc290113048a2592e5e5801619, type: 3}
+    - {fileID: 21300000, guid: 28ea721a87c50ae41a75a1cb646894b3, type: 3}
+    - {fileID: 21300000, guid: 5b736cf2fd5777b4483e520f66f8548a, type: 3}
+    - {fileID: 21300000, guid: 11f03b443fab2414581f655390635ddb, type: 3}
+    - {fileID: 21300000, guid: 85db14bd4e4fd9840b133be193e05de8, type: 3}
+    - {fileID: 21300000, guid: bdf47f1ae4d879b4a9a8430bd37c7910, type: 3}
+    - {fileID: 21300000, guid: ec3e06c47b8054c48a0d12fee9b904f3, type: 3}
+    - {fileID: 21300000, guid: cfdbd985f41181b4988dafc0eef84ecd, type: 3}
+    - {fileID: 21300000, guid: 8a6e53251b275d54da9740c564c87f7f, type: 3}
+    - {fileID: 21300000, guid: 95ae138ad38360a468c7b81e95e5f8bb, type: 3}
+    - {fileID: 21300000, guid: 3ad420dea3496b646bf796b524695e62, type: 3}
+    - {fileID: 21300000, guid: bc177453b9c70ab449a8f8eb1e772a37, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: f8433b03ef806464d858c510d3276507, type: 3}
+    - {fileID: 21300000, guid: ed9bf636f8da5194bafc9eecb15d0743, type: 3}
+    - {fileID: 21300000, guid: 110c0b8097827424a9d17e8026a8f481, type: 3}
+    - {fileID: 21300000, guid: e15bc97d1dcb1064b884d396f191fd43, type: 3}
+    - {fileID: 21300000, guid: 5e74e0c4f4bb1804b8997ebde78e1c57, type: 3}
+    - {fileID: 21300000, guid: 4b1db050a27af6c49b6cb10df4c5aa4c, type: 3}
+    - {fileID: 21300000, guid: c5adc44c3d29f5543b7b532ddd7f0879, type: 3}
+    - {fileID: 21300000, guid: dc851d29d5258fa48b193e49356c3d8c, type: 3}
+    - {fileID: 21300000, guid: f15b3aa815be6ac4da5a5ca99553b6b7, type: 3}
+    - {fileID: 21300000, guid: e17c86f99a724e749b03f3bc8c3cb391, type: 3}
+    - {fileID: 21300000, guid: d907bc15fdd98704bbdff96709be3758, type: 3}
+    - {fileID: 21300000, guid: 1d2de24c1bf48b24398c634397b79927, type: 3}
+    - {fileID: 21300000, guid: 615e492c1715dc947aa5bd861e320465, type: 3}
+    - {fileID: 21300000, guid: 947ffbd1a2ef8cd4988ac6b13bdaa398, type: 3}
+    - {fileID: 21300000, guid: a267478acf919f547bf2b235272fdc88, type: 3}
+  - Name: Power Storage
+    buildingPrefab: {fileID: 971247322839055834, guid: 8117ca4e7b084e24395e9d072fe98607, type: 3}
+    opponentPrefab: {fileID: -5455234545508228148, guid: 1b134b0202b4a6745be44d1aac8b727b, type: 3}
+    buildingId: 4
+    buildingType: 3
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 4d535bcb2e8aa80489a4583d8cb56f21, type: 3}
+    - {fileID: 21300000, guid: f7fd045d6445aaf48b6ffefc62e012d4, type: 3}
+    - {fileID: 21300000, guid: 935fa78ef4768394aa53cc2166cdaa65, type: 3}
+    - {fileID: 21300000, guid: 18907a7ca90f9f547bf5c4d304aa1593, type: 3}
+    - {fileID: 21300000, guid: d16e7f86690d3a9498afab61093c2b3b, type: 3}
+    - {fileID: 21300000, guid: d355565e9aa7e93478fcf4e6a2c0bb18, type: 3}
+    - {fileID: 21300000, guid: 7e846c874896e064eb557ed68537b5de, type: 3}
+    - {fileID: 21300000, guid: 8e3e257b28aebf748bcaa8a8c6d02c58, type: 3}
+    - {fileID: 21300000, guid: 46b6697859df4994baad679de7848f69, type: 3}
+    - {fileID: 21300000, guid: 2eb3590b7a61cf1488187803784096e1, type: 3}
+    - {fileID: 21300000, guid: 98654a893f442aa4c83fdac235818a65, type: 3}
+    - {fileID: 21300000, guid: be83565518dfc6c4682b607b39b4cb75, type: 3}
+    - {fileID: 21300000, guid: cd1a986499d1fb640b7990a0838f7053, type: 3}
+    - {fileID: 21300000, guid: d32e15267655ee847afb1eae7edd577b, type: 3}
+    - {fileID: 21300000, guid: c59458c387c1fab498f02b1c4828d244, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: bee51c41dfe78ea4bb558d718ea84194, type: 3}
+    - {fileID: 21300000, guid: 879fb676fd5f48f42895402956f0f34a, type: 3}
+    - {fileID: 21300000, guid: 68bacfe0f554c954cae19de5cab62068, type: 3}
+    - {fileID: 21300000, guid: 1b937b3c2e0833b4e8f3868800bb2b7f, type: 3}
+    - {fileID: 21300000, guid: 88ba8a33b5961c94fa2ccc7d533448ee, type: 3}
+    - {fileID: 21300000, guid: beda8666dad8ffe41b0c739ca6bde4c2, type: 3}
+    - {fileID: 21300000, guid: b6f9ddfa4bde264499b85d750d482b2f, type: 3}
+    - {fileID: 21300000, guid: 85cccf3751788b943afac9460f7624ae, type: 3}
+    - {fileID: 21300000, guid: fa9eb93ea653c0e48ad2a2c61eb319b1, type: 3}
+    - {fileID: 21300000, guid: d0746512ae552734e9b54f6c2702f0f7, type: 3}
+    - {fileID: 21300000, guid: 1d84c3ede240bfb4389256d1ba6f2845, type: 3}
+    - {fileID: 21300000, guid: 9fb300369ad321d489eedd2484204bc1, type: 3}
+    - {fileID: 21300000, guid: 1ac72f0e16aa5d6448efcde9d4b37202, type: 3}
+    - {fileID: 21300000, guid: ccef2dcd48fe6004bb2408337b3a0eb6, type: 3}
+    - {fileID: 21300000, guid: cc59be08d61d51346ade7c5793d3cb64, type: 3}
+  - Name: Wall
+    buildingPrefab: {fileID: 2116652466598352093, guid: f4c76359af8c3f64eaaedfc7e0a96882, type: 3}
+    opponentPrefab: {fileID: 0}
+    buildingId: 9
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 6c83064cc6045254e8bed2fc0ec0ec93, type: 3}
+    - {fileID: 21300000, guid: d8f0f1a8b191e4e4a93d2c54cf500c64, type: 3}
+    - {fileID: 21300000, guid: d2ab248168f427945a3b29238cf6ea00, type: 3}
+    - {fileID: 21300000, guid: 2bc746ff5d7c8864d8761c3546282201, type: 3}
+    - {fileID: 21300000, guid: 280b99297ffee50449e0f25e1c33e95e, type: 3}
+    - {fileID: 21300000, guid: 6d03d8d18f8159745a0cb5aa5c5b61fa, type: 3}
+    - {fileID: 21300000, guid: 8318d6c891196e445bc5f1120c8439d4, type: 3}
+    - {fileID: 21300000, guid: 5c3952e8dcb4a5e449c0e8fccabf792a, type: 3}
+    - {fileID: 21300000, guid: 9373f9b1677e71044a59adb4bb7caec7, type: 3}
+    - {fileID: 21300000, guid: cd8131481cb5ba44abe24c8a07b6f970, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 68c5e0d0d3e3c974796b0b94a91f734e, type: 3}
+    - {fileID: 21300000, guid: 101307b34722232439bc855ea5ffd8c5, type: 3}
+    - {fileID: 21300000, guid: c8199b4a36aaac7408d8fa5d32a675f7, type: 3}
+    - {fileID: 21300000, guid: a05d9c84f29229e4bb1dcbaa1cc15b0f, type: 3}
+    - {fileID: 21300000, guid: 17fa6e0f53fd37c48be5a382035c4115, type: 3}
+    - {fileID: 21300000, guid: b6cc5579e1bc48949a32fcd5a663baa8, type: 3}
+    - {fileID: 21300000, guid: 99e3b9cbc030ddf4685d1119a1559b5b, type: 3}
+    - {fileID: 21300000, guid: d95d154de3c666c42b40ae91f48d5755, type: 3}
+    - {fileID: 21300000, guid: ac5e4452cce265f42bf56b4b1b7f3cfb, type: 3}
+    - {fileID: 21300000, guid: ec96a821646a5244483153997f550f79, type: 3}
+  - Name: Watch Tower
+    buildingPrefab: {fileID: 448743245818262111, guid: d01b0d85b2645ee45b4cb802b35d7364, type: 3}
+    opponentPrefab: {fileID: 429036916934095580, guid: 0f9ca947c6593874a808a730805f2708, type: 3}
+    buildingId: 10
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 3ee69e36da58138448e09d690ff3ee1a, type: 3}
+    - {fileID: 21300000, guid: b4469b22d27bdaa4db46cbe2941bb49f, type: 3}
+    - {fileID: 21300000, guid: 23fe7bed8f7bcfe49ba39df15dc599a8, type: 3}
+    - {fileID: 21300000, guid: 274e325591d71614e97b0364847403ea, type: 3}
+    - {fileID: 21300000, guid: 4833a6dbf53b84c43aef55b2b1e39853, type: 3}
+    - {fileID: 21300000, guid: 47548083e57b35341891ba4d76e981d3, type: 3}
+    - {fileID: 21300000, guid: d6a840d16a0ec994eac886df4ea371e5, type: 3}
+    - {fileID: 21300000, guid: aeb5ad74e10f8fe41970a97b5e2f70fc, type: 3}
+    - {fileID: 21300000, guid: d008eb4d74ff9fa4e88ee2e5fe83f4d4, type: 3}
+    - {fileID: 21300000, guid: f2177ca06f9a5e042b2da68e0973aee4, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: f3df8211741dbb740900f1a865476427, type: 3}
+    - {fileID: 21300000, guid: 26099a4ddc1ec2146b8683fd4b91d509, type: 3}
+    - {fileID: 21300000, guid: ff9e6d8b5ebf7164e96b3ac910f361a3, type: 3}
+    - {fileID: 21300000, guid: 3eb3f12aad08aa64f97e6c7b6a005cd3, type: 3}
+    - {fileID: 21300000, guid: c059120d675336a42abd0f83bbaebdbe, type: 3}
+    - {fileID: 21300000, guid: 8eeaa1aa0c14e3d49886f99019e0e5d1, type: 3}
+    - {fileID: 21300000, guid: 538af084c4ad26b4bb83966409827e5c, type: 3}
+    - {fileID: 21300000, guid: 668586ee53071fd47b060261afd9520a, type: 3}
+    - {fileID: 21300000, guid: b944b0a70bc498240a4a8c10b52bd2c6, type: 3}
+    - {fileID: 21300000, guid: d0258e9cdfea3574db721904cfb329f0, type: 3}
+  - Name: Rocket Turret
+    buildingPrefab: {fileID: 3847383731951654811, guid: 87a7361385d2514458fc1a87462af180, type: 3}
+    opponentPrefab: {fileID: 4905546085333774453, guid: decf477e50efc284f881d768deab1ab8, type: 3}
+    buildingId: 11
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 6489030d5b6b47d4abc195bca2f7b78a, type: 3}
+    - {fileID: 21300000, guid: 80ecbe36aff1a7a4dbce5691f648575f, type: 3}
+    - {fileID: 21300000, guid: a0b3e88f316d9384688b8b75385c854e, type: 3}
+    - {fileID: 21300000, guid: 6c90425887d32c645923a3b5b0f34133, type: 3}
+    - {fileID: 21300000, guid: e3e4e9af825774c4ca3a89e85a32305f, type: 3}
+    - {fileID: 21300000, guid: d6e120adc9db21741af9f75cb0cd0ed9, type: 3}
+    - {fileID: 21300000, guid: 8bc4d70b636e523499eaa50f56c12666, type: 3}
+    - {fileID: 21300000, guid: 659613f9ce84e3843b4694cc6c8e5f4a, type: 3}
+    - {fileID: 21300000, guid: bdd34a8055ff3ad49973a9e9a018cde4, type: 3}
+    - {fileID: 21300000, guid: db27018b9ca7dff4db51e892e4a8aa62, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 3bd88a4afc8d0394fbf926b9d8edba51, type: 3}
+    - {fileID: 21300000, guid: a29895e30fbb3b645af4e81589bc1347, type: 3}
+    - {fileID: 21300000, guid: f1f0d4df647b0be4496583efa41ac982, type: 3}
+    - {fileID: 21300000, guid: 825c33d38ca204e41833ab9a17843ad6, type: 3}
+    - {fileID: 21300000, guid: 37653464d2b663441858304dabd40679, type: 3}
+    - {fileID: 21300000, guid: f2fd156fb56dec245a39160c64deff0a, type: 3}
+    - {fileID: 21300000, guid: 912589b91f904f24b9019b4443c79628, type: 3}
+    - {fileID: 21300000, guid: cc5a883244cc05045ba07f91a15fce47, type: 3}
+    - {fileID: 21300000, guid: f8f6e99085563884aa588825e84a7b28, type: 3}
+    - {fileID: 21300000, guid: 96e9a0fadbb108f4db6df72e00204d16, type: 3}
+  - Name: Mortar
+    buildingPrefab: {fileID: 2194025401323559653, guid: dca1062c582cc1d4b8ed1de7e287ffbe, type: 3}
+    opponentPrefab: {fileID: 7433079347454983193, guid: c4d8b732ef5d35346b29c46709201797, type: 3}
+    buildingId: 12
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 2ef10481291d6734a9a54bffe904a5b7, type: 3}
+    - {fileID: 21300000, guid: fa74447d1b87760439c6d4b264015a42, type: 3}
+    - {fileID: 21300000, guid: 5225252fedf1f4e478f59a5fb096921a, type: 3}
+    - {fileID: 21300000, guid: 756a2ef9be03a5447ac8ef0b23e798fd, type: 3}
+    - {fileID: 21300000, guid: cdcd7b296f61f42459e972631a428d7b, type: 3}
+    - {fileID: 21300000, guid: c259c50117b570a4bbcf6d7c92b5fe50, type: 3}
+    - {fileID: 21300000, guid: 8d9784e637e5e6b45a193510be5f872b, type: 3}
+    - {fileID: 21300000, guid: 7c8d20cffcb36ce4db8f8f908a0ec16e, type: 3}
+    - {fileID: 21300000, guid: 2608161d8b873894bba8e3c171cb746e, type: 3}
+    - {fileID: 21300000, guid: 9815eb27e64643846ba55e62af1d30ab, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 6af1fda8f5ec58c41aa5ca8044551b0d, type: 3}
+    - {fileID: 21300000, guid: 0d7354b0ec6f7ee4f88655b121e554dc, type: 3}
+    - {fileID: 21300000, guid: 8ab1d0d361808f74d9bc7fc1203b9527, type: 3}
+    - {fileID: 21300000, guid: ebcd99b95df7e91429268c742f5bade2, type: 3}
+    - {fileID: 21300000, guid: 0cd1dbb03f736874eae55566c971c0ab, type: 3}
+    - {fileID: 21300000, guid: e50b27d158836d44aaf3b35f7d905b3c, type: 3}
+    - {fileID: 21300000, guid: db61dcb9e074b9a4dad9e51968ad3993, type: 3}
+    - {fileID: 21300000, guid: f9dfe86e1bd07eb45ae9b83fa60a3d8c, type: 3}
+    - {fileID: 21300000, guid: 1527a79e29912b54c9d83c033d23f880, type: 3}
+    - {fileID: 21300000, guid: 6353456106ef3314f9cbf86fa89e7660, type: 3}
+  - Name: Mine
+    buildingPrefab: {fileID: 199251438827585992, guid: 6c3e2ed4d6c21b24b92b162d20b8c936, type: 3}
+    opponentPrefab: {fileID: 5492071555473019197, guid: af7b7d5428743304585a3dfcd25dede5, type: 3}
+    buildingId: 13
+    buildingType: 5
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    - {fileID: 21300000, guid: 2aadb9b736db1d7428bc05e8f8eca0e1, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+    - {fileID: 21300000, guid: 2908143b98516604e92a4a1e2e470251, type: 3}
+  - Name: Trap Floor
+    buildingPrefab: {fileID: 2193275653725719750, guid: 8fe790975f9fd1244ace8dc080112aa2, type: 3}
+    opponentPrefab: {fileID: 4053889371297665824, guid: 1b9c13be9c8d6db4fb7e1f23d76c0044, type: 3}
+    buildingId: 14
+    buildingType: 5
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 1b583a015cac1c64a9eddaa658a5561d, type: 3}
+    - {fileID: 21300000, guid: 904c5a0483cc6ec46817e02b4b98c667, type: 3}
+    - {fileID: 21300000, guid: b6fe58f672b47db46adb039d8db2aa07, type: 3}
+    - {fileID: 21300000, guid: acb31237c652079478e067780c0f993a, type: 3}
+    - {fileID: 21300000, guid: bd4ac7dc5b2e0dd4586933a97a715a24, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: e02c9cb357384e348af56f390167f644, type: 3}
+    - {fileID: 21300000, guid: f33cd361a8a201c43af96979be2a67eb, type: 3}
+    - {fileID: 21300000, guid: 6845bd87957fb194e9b17b46ada6db75, type: 3}
+    - {fileID: 21300000, guid: f616813d5b7b05e46945c173f4e34901, type: 3}
+    - {fileID: 21300000, guid: a3b66feba8cbbf9438d462958d7b21e3, type: 3}
+  - Name: Air Defence
+    buildingPrefab: {fileID: 8379074292621088961, guid: 6b59b8600c77a61439643a9ffe9de968, type: 3}
+    opponentPrefab: {fileID: 8379074292621088961, guid: f2623e3eb0f67c546b96e07b3ef436c8, type: 3}
+    buildingId: 18
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: ef872fbfb6667974f890e945b18c47b8, type: 3}
+    - {fileID: 21300000, guid: d97321132c113064e8db1ab8ac144ff9, type: 3}
+    - {fileID: 21300000, guid: 080cafe2e08436c47b2841b6f7255979, type: 3}
+    - {fileID: 21300000, guid: c14057c1f3ac3af47829880e2ef57ac1, type: 3}
+    - {fileID: 21300000, guid: 7a43e57210abe214e9d3b489b3cae426, type: 3}
+    - {fileID: 21300000, guid: 0f5cae3f186d92a4990aeea6753f1ad7, type: 3}
+    - {fileID: 21300000, guid: 97f4a066c853e0f4d8f6d377c649c57d, type: 3}
+    - {fileID: 21300000, guid: aff5724e981e0bf478b21daf9f4d8a38, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 82364093437e6fe448442666bc5368f7, type: 3}
+    - {fileID: 21300000, guid: 401570e9ee3eae8469df1f35ddc6b31d, type: 3}
+    - {fileID: 21300000, guid: ae1c39f9d19ac934888b49a40d302269, type: 3}
+    - {fileID: 21300000, guid: 665e33c9dd5237148a2b5e7b7669fc5f, type: 3}
+    - {fileID: 21300000, guid: a6c17f93e3eab1e4e87f4839e180c3f7, type: 3}
+    - {fileID: 21300000, guid: ba92f619f6dfcae46a5ac292e6959e97, type: 3}
+    - {fileID: 21300000, guid: b106beccf18d67348b942a2301062d52, type: 3}
+    - {fileID: 21300000, guid: 9007f9c5b0772fe4e9053590dcc87d4c, type: 3}
+  - Name: Tesla Coil
+    buildingPrefab: {fileID: 8769508766626777860, guid: c08f025af18c3934d9859693b230c2f0, type: 3}
+    opponentPrefab: {fileID: 8769508766626777860, guid: 760ec3dbd1c162e4a991251259777683, type: 3}
+    buildingId: 19
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 134c51db876facb4092ae806663019af, type: 3}
+    - {fileID: 21300000, guid: 92643b3f980f0e84f937f17735cd777f, type: 3}
+    - {fileID: 21300000, guid: 005840003d77670428981e8eda76d47c, type: 3}
+    - {fileID: 21300000, guid: 46bdfca314bd3384fb09e8eb15c4f082, type: 3}
+    - {fileID: 21300000, guid: 747755d2768b6694581eda325603281a, type: 3}
+    - {fileID: 21300000, guid: 4d0f4d66a69d337439c3a1d55b3cdad9, type: 3}
+    - {fileID: 21300000, guid: caab8076c460f8549b8b94e1bd227cf9, type: 3}
+    - {fileID: 21300000, guid: 74924e79aa8ed69448445f26d664913e, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 0db78fef554b2b341b391c58f9598e05, type: 3}
+    - {fileID: 21300000, guid: 2311825e31e8f6249856922edcb4f298, type: 3}
+    - {fileID: 21300000, guid: 141c761ac5f9fad4eb762ddc197699dc, type: 3}
+    - {fileID: 21300000, guid: a376783c46be6a54ea97912f8a6472ff, type: 3}
+    - {fileID: 21300000, guid: bcb41be25c1cb5842bcde982ad5008d0, type: 3}
+    - {fileID: 21300000, guid: 8b293113bfdc518468d6187b78f528d5, type: 3}
+    - {fileID: 21300000, guid: 940f3ebd5d4ab394098e31d181da3845, type: 3}
+    - {fileID: 21300000, guid: 292a94ed126915a4897a92c5544f35d6, type: 3}
+  - Name: Hidden Drone
+    buildingPrefab: {fileID: 3998428619238518023, guid: 25cba1037dcdfc74c949ed338fdcaafa, type: 3}
+    opponentPrefab: {fileID: 3998428619238518023, guid: dc92200d6d34687479031f958e860f2f, type: 3}
+    buildingId: 20
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 86efda641978b70489702723390ff658, type: 3}
+    - {fileID: 21300000, guid: 3e6688114acd4454a93ddb703abca0e9, type: 3}
+    - {fileID: 21300000, guid: ed53dcb40a24b544cba1a8b5696122d2, type: 3}
+    - {fileID: 21300000, guid: fcce710ffb346004d9846988c0e78648, type: 3}
+    - {fileID: 21300000, guid: aa1b983b8a1632848bd36c0a7677d09e, type: 3}
+    - {fileID: 21300000, guid: a0dfd4600a784d148ae15b5f7ff4fedd, type: 3}
+    - {fileID: 21300000, guid: 68bef0f1a3697144b9c06f6524f33165, type: 3}
+    - {fileID: 21300000, guid: 17dbf5cc985e52e48989eba23504034f, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 67f4dd85e90982b469546a399fbcdd98, type: 3}
+    - {fileID: 21300000, guid: 5dc7cd5b56c39b6439f53ef0a96925ff, type: 3}
+    - {fileID: 21300000, guid: e11e80b59ee26b349987033fd54345bb, type: 3}
+    - {fileID: 21300000, guid: e267df4f573c9d94c9e51febb60bd31a, type: 3}
+    - {fileID: 21300000, guid: 476b1928efcc76d418c96ac02ad12413, type: 3}
+    - {fileID: 21300000, guid: 237f09f9ab6cfaa43b2b740a064c5359, type: 3}
+    - {fileID: 21300000, guid: 252d47fb0ab2781488937f00fe8d8d63, type: 3}
+    - {fileID: 21300000, guid: 069509c54e7709d4f8106dfa2c8a7829, type: 3}
+  - Name: Plasma Turret
+    buildingPrefab: {fileID: 8793796241152279366, guid: 99a4b4ec91cd0234cb69458c473684df, type: 3}
+    opponentPrefab: {fileID: 8793796241152279366, guid: 98c00d89cabcbd64a834dbc497756789, type: 3}
+    buildingId: 21
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 17f5719493789af4099c4fb55febc372, type: 3}
+    - {fileID: 21300000, guid: db111182eaf6fe34f9ef9dfccba4578d, type: 3}
+    - {fileID: 21300000, guid: cd5b7f0fb0c9ee84fb0d8bb2349a740c, type: 3}
+    - {fileID: 21300000, guid: 4b4ac030d3d1a5743b139cbe0813f0a7, type: 3}
+    - {fileID: 21300000, guid: 0ec5daa9afff54e409fb444be6b5c46c, type: 3}
+    - {fileID: 21300000, guid: 113a1c98c0d8eb84fb8b5b5f04947b3d, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 589a75ebb5aeda747a8b4a79930fbeea, type: 3}
+    - {fileID: 21300000, guid: 6bf7e1bf4bfa36545861918b15f0db1d, type: 3}
+    - {fileID: 21300000, guid: be0d186ab0d01574bbbfb49691d4f28e, type: 3}
+    - {fileID: 21300000, guid: a2abffe38dcff5b499a266965d7ffb63, type: 3}
+    - {fileID: 21300000, guid: 9bbda9127e2db7341b7ca78163fada0f, type: 3}
+    - {fileID: 21300000, guid: 3b3189184e39d7f4b8e7d870e451a88f, type: 3}
+  - Name: Sonic Boomer
+    buildingPrefab: {fileID: 1063211707146007206, guid: 3d129cafb44cb0b4e8263e794925daa4, type: 3}
+    opponentPrefab: {fileID: 1063211707146007206, guid: 47450742c12475d46aef4ac7bb6f9bda, type: 3}
+    buildingId: 22
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 54042bc2a0554ce488007d60870f0ce0, type: 3}
+    - {fileID: 21300000, guid: 9feddc2dac3882b46a90e4aade958e47, type: 3}
+    - {fileID: 21300000, guid: 23e9923ec62898b498c1bf94dda0ceb0, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 389d0747556df8a4f8ff6ba989b61c16, type: 3}
+    - {fileID: 21300000, guid: f205443968c31274abcfea420217bde0, type: 3}
+    - {fileID: 21300000, guid: d4497a7cf81b35d48989ab177f6fd73b, type: 3}
+  - Name: Ray Cannon
+    buildingPrefab: {fileID: 7307927973428537396, guid: e936a8ad7c3b51a4caa38619f78611a1, type: 3}
+    opponentPrefab: {fileID: 7307927973428537396, guid: 32cb828dff9b7f946b68279d40cc7f02, type: 3}
+    buildingId: 23
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 932bfa7ad832c014f9e980080581eaff, type: 3}
+    - {fileID: 21300000, guid: 8cedfa7907c6fb44dabc21d5ba7de901, type: 3}
+    - {fileID: 21300000, guid: c984d6ff7f98e674b8f792a904fedde3, type: 3}
+    - {fileID: 21300000, guid: 32665f3e33bdf524da82187d85d08fa8, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: fd0e297c499345e42a6843d924000a75, type: 3}
+    - {fileID: 21300000, guid: a8883ef1ebedef54db5ab8d469f47c58, type: 3}
+    - {fileID: 21300000, guid: 36c519fed7803ee4cb8f183961e1ef1b, type: 3}
+    - {fileID: 21300000, guid: d655ea181065bac42becd9afbda53b94, type: 3}
+  - Name: Tachyon Tower
+    buildingPrefab: {fileID: 7297326218419222138, guid: 7114f9e5c9bf44247a030383777230b0, type: 3}
+    opponentPrefab: {fileID: 7297326218419222138, guid: 850b96ec968a8424895fd11d0aa00f39, type: 3}
+    buildingId: 24
+    buildingType: 4
+    playerLevelSprites:
+    - {fileID: 21300000, guid: 7f432b10824b7034687e3fc5ae3a2609, type: 3}
+    - {fileID: 21300000, guid: 464f197f4a7edad4b8c251829e4d41c4, type: 3}
+    - {fileID: 21300000, guid: d635a72f09af5e4459b84dedd10621a7, type: 3}
+    opponentLevelSprite:
+    - {fileID: 21300000, guid: 81e671a5f3f7491459d95a39123a0e26, type: 3}
+    - {fileID: 21300000, guid: a4bbe0b662381724a82f0b04e91a8fe8, type: 3}
+    - {fileID: 21300000, guid: e1e140e3fd619a24bb9d2e4017ddf703, type: 3}

@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435703745bf74919b575f487edc983a2, type: 3}
+  m_Name: ArmyCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: military
+  category:
+  - name: Barrack
+    id: 0
+    levels:
+    - Description: 'Barracks is a building used to train units using the Power.  '
+      Currency: 4
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: barrack
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: power
+      IdOfBlackBigIcon: barrack
+      MaxCountOfThisItem: 100
+      name: Barrack
+      id: 2
+      level: 1
+      asset: {fileID: 100000, guid: af4c1e15b01a041d4a5efd9b954f5fd2, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: 38
+      grassType: 3
+      pivotCorrection: 1
+      constructionType: 2
+      requiredHQLevel: 0
+      totalUnitCapacity: 0
+      gameResourceToTrainUnit: 0
+      isMovable: 0
+      entityType: 0
+    - Description: 'Barracks is a building used to train units using the Power.  '
+      Currency: 4
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: barrack
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: power
+      IdOfBlackBigIcon: barrack
+      MaxCountOfThisItem: 100
+      name: Barrack
+      id: 2
+      level: 2
+      asset: {fileID: 100000, guid: af4c1e15b01a041d4a5efd9b954f5fd2, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 0
+      prodType: 0
+      prodPerHour: 0
+      structureType: 38
+      grassType: 3
+      pivotCorrection: 1
+      constructionType: 2
+      requiredHQLevel: 0
+      totalUnitCapacity: 0
+      gameResourceToTrainUnit: 0
+      isMovable: 0
+      entityType: 0
+  - name: Training camp
+    id: 1
+    levels:
+    - Description: In this building the troops are stored, waiting to be deployed
+        in the battle.
+      Currency: 4
+      Price: 13
+      TimeToBuild: 1
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: trainingCamp
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: power
+      IdOfBlackBigIcon: trainingCamp
+      MaxCountOfThisItem: 100
+      name: Training camp
+      id: 0
+      level: 1
+      asset: {fileID: 100000, guid: 5b1438ea0c0e54fbaada3f810681b75d, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 7
+      prodType: 0
+      prodPerHour: 0
+      structureType: 37
+      grassType: 3
+      pivotCorrection: 1
+      constructionType: 2
+      requiredHQLevel: 0
+      totalUnitCapacity: 10
+      gameResourceToTrainUnit: 0
+      isMovable: 0
+      entityType: 0
+    - Description: In this building the troops are stored, waiting to be deployed
+        in the battle.
+      Currency: 4
+      Price: 14
+      TimeToBuild: 1
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: trainingCamp
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: power
+      IdOfBlackBigIcon: trainingCamp
+      MaxCountOfThisItem: 100
+      name: Training camp
+      id: 0
+      level: 2
+      asset: {fileID: 100000, guid: 5b1438ea0c0e54fbaada3f810681b75d, type: 3}
+      storeCap: 0
+      storeType: 2
+      storeResource: 7
+      prodType: 0
+      prodPerHour: 0
+      structureType: 37
+      grassType: 3
+      pivotCorrection: 1
+      constructionType: 2
+      requiredHQLevel: 0
+      totalUnitCapacity: 20
+      gameResourceToTrainUnit: 0
+      isMovable: 0
+      entityType: 0
+  - name: Sarge location
+    id: 2
+    levels:
+    - Description: In this building the troops are stored, waiting to be deployed
+        in the battle.
+      Currency: 4
+      Price: 1
+      TimeToBuild: 0
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: sargeLocation
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: power
+      IdOfBlackBigIcon: sargeLocation
+      MaxCountOfThisItem: 100
+      name: Sarge location
+      id: 1
+      level: 1
+      asset: {fileID: 100000, guid: a417ebd7bc59c414c827c04b1e97cc26, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 10
+      prodType: 0
+      prodPerHour: 0
+      structureType: 36
+      grassType: 3
+      pivotCorrection: 1
+      constructionType: 2
+      requiredHQLevel: 0
+      totalUnitCapacity: 0
+      gameResourceToTrainUnit: 0
+      isMovable: 1
+      entityType: 0
+    - Description: In this building the troops are stored, waiting to be deployed
+        in the battle.
+      Currency: 4
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 500
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: sargeLocation
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: power
+      IdOfBlackBigIcon: sargeLocation
+      MaxCountOfThisItem: 100
+      name: Sarge location
+      id: 1
+      level: 2
+      asset: {fileID: 100000, guid: a417ebd7bc59c414c827c04b1e97cc26, type: 3}
+      storeCap: 0
+      storeType: 0
+      storeResource: 10
+      prodType: 0
+      prodPerHour: 0
+      structureType: 36
+      grassType: 3
+      pivotCorrection: 1
+      constructionType: 2
+      requiredHQLevel: 0
+      totalUnitCapacity: 0
+      gameResourceToTrainUnit: 0
+      isMovable: 0
+      entityType: 0

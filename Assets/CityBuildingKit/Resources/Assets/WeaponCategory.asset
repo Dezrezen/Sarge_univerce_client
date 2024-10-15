@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f775916ab042508611f9ec0253b38d, type: 3}
+  m_Name: WeaponCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: weapon
+  category:
+  - name: Wall
+    id: 0
+    levels:
+    - Description: Trapfloor eliminates the enemies by catching them into the hole
+        in the ground that is covered with floor tiles to make it hidden.
+      Currency: 5
+      Price: 100
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: wall
+      IdOfSmallIcon: wall
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: wall
+      MaxCountOfThisItem: 100
+      name: wall
+      id: 3
+      level: 1
+      asset: {fileID: 106100, guid: f5958fea963457848b0ab3b07e4dbd07, type: 3}
+      damagePoints: 10
+      range: 1
+      fireRate: 2
+      damageType: 0
+      targetType: 1
+      entityType: 8
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 45
+      requiredHQLevel: 0
+      _timeToExplosion: 0
+      _amountOfSlots: 11
+    - Description: Trapfloor eliminates the enemies by catching them into the hole
+        in the ground that is covered with floor tiles to make it hidden.
+      Currency: 5
+      Price: 100
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: wall
+      IdOfSmallIcon: wall
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: wall
+      MaxCountOfThisItem: 100
+      name: wall
+      id: 3
+      level: 2
+      asset: {fileID: 106100, guid: f5958fea963457848b0ab3b07e4dbd07, type: 3}
+      damagePoints: 10
+      range: 2
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 8
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 45
+      requiredHQLevel: 0
+      _timeToExplosion: 0
+      _amountOfSlots: 11
+  - name: Watch tower
+    id: 1
+    levels:
+    - Description: It is a single-target range defense building.
+      Currency: 1
+      Price: 100
+      TimeToBuild: 30
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: watchTower
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: watchTower
+      MaxCountOfThisItem: 100
+      name: Watch tower
+      id: 0
+      level: 1
+      asset: {fileID: 106100, guid: c172f8a48215e4288b3c63e727e89fcf, type: 3}
+      damagePoints: 10
+      range: 2
+      fireRate: 2
+      damageType: 1
+      targetType: 3
+      entityType: 7
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 39
+      requiredHQLevel: 0
+      _timeToExplosion: 0
+      _amountOfSlots: 0
+    - Description: It is a single-target range defense building.
+      Currency: 1
+      Price: 100
+      TimeToBuild: 30
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: watchTower
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: watchTower
+      MaxCountOfThisItem: 100
+      name: Watch tower
+      id: 0
+      level: 2
+      asset: {fileID: 106100, guid: f58b1199d161746409ea88b35fd07443, type: 3}
+      damagePoints: 10
+      range: 6
+      fireRate: 2
+      damageType: 1
+      targetType: 3
+      entityType: 7
+      damageBonus: 0
+      grassType: 3
+      pivotCorrection: 0
+      constructionType: 3
+      structureType: 39
+      requiredHQLevel: 0
+      _timeToExplosion: 0
+      _amountOfSlots: 0
+  - name: Rocket turret
+    id: 2
+    levels:
+    - Description: It is a single-target range defense machine.
+      Currency: 5
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: rocketTurret
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: power
+      IdOfBlackBigIcon: rocketTurret
+      MaxCountOfThisItem: 100
+      name: Rocket turret
+      id: 2
+      level: 1
+      asset: {fileID: 106100, guid: dd56a1a9b772d4bee9a7d7c6637c3764, type: 3}
+      damagePoints: 10
+      range: 2
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 7
+      damageBonus: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 2
+      structureType: 41
+      requiredHQLevel: 0
+      _timeToExplosion: 1.5
+      _amountOfSlots: 0
+    - Description: It is a single-target range defense machine.
+      Currency: 5
+      Price: 100
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: rocketTurret
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: power
+      IdOfBlackBigIcon: rocketTurret
+      MaxCountOfThisItem: 100
+      name: Rocket turret
+      id: 2
+      level: 2
+      asset: {fileID: 106100, guid: dd56a1a9b772d4bee9a7d7c6637c3764, type: 3}
+      damagePoints: 10
+      range: 5
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 7
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 41
+      requiredHQLevel: 0
+      _timeToExplosion: 1.5
+      _amountOfSlots: 0
+  - name: Mortar
+    id: 3
+    levels:
+    - Description: Mortar is an area splash defense machine.
+      Currency: 5
+      Price: 1
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: mortar
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: mortar
+      MaxCountOfThisItem: 100
+      name: Mortar
+      id: 4
+      level: 1
+      asset: {fileID: 106100, guid: f423ce9e45785410aba0f3b4f81b6ec5, type: 3}
+      damagePoints: 10
+      range: 2
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 7
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 43
+      requiredHQLevel: 0
+      _timeToExplosion: 0
+      _amountOfSlots: 0
+    - Description: Mortar is an area splash defense machine.
+      Currency: 5
+      Price: 1
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: mortar
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: mortar
+      MaxCountOfThisItem: 100
+      name: Mortar
+      id: 4
+      level: 2
+      asset: {fileID: 106100, guid: f423ce9e45785410aba0f3b4f81b6ec5, type: 3}
+      damagePoints: 10
+      range: 5
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 7
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 43
+      requiredHQLevel: 0
+      _timeToExplosion: 0
+      _amountOfSlots: 0
+  - name: Mine
+    id: 4
+    levels:
+    - Description: Mine is a type of trap that has to be activated and remains hidden
+        for the opponent until the hostile units step on it.
+      Currency: 5
+      Price: 100
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: mine
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: mine
+      MaxCountOfThisItem: 100
+      name: Mine
+      id: 1
+      level: 1
+      asset: {fileID: 106100, guid: 1f2d3346915c144189a1dabe0f117b1c, type: 3}
+      damagePoints: 10
+      range: 1
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 8
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 40
+      requiredHQLevel: 0
+      _timeToExplosion: 1.5
+      _amountOfSlots: 0
+    - Description: Mine is a type of trap that has to be activated and remains hidden
+        for the opponent until the hostile units step on it.
+      Currency: 5
+      Price: 100
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: mine
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: mine
+      MaxCountOfThisItem: 100
+      name: Mine
+      id: 1
+      level: 2
+      asset: {fileID: 106100, guid: 1f2d3346915c144189a1dabe0f117b1c, type: 3}
+      damagePoints: 10
+      range: 4
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 8
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 40
+      requiredHQLevel: 0
+      _timeToExplosion: 1.5
+      _amountOfSlots: 0
+  - name: Trap floor
+    id: 5
+    levels:
+    - Description: Trapfloor eliminates the enemies by catching them into the hole
+        in the ground that is covered with floor tiles to make it hidden.
+      Currency: 5
+      Price: 100
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: trapFloor
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: trapFloor
+      MaxCountOfThisItem: 100
+      name: Trap floor
+      id: 3
+      level: 1
+      asset: {fileID: 106100, guid: b923b6412c40442db8941d780940e559, type: 3}
+      damagePoints: 10
+      range: 1
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 8
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 42
+      requiredHQLevel: 0
+      _timeToExplosion: 0
+      _amountOfSlots: 11
+    - Description: Trapfloor eliminates the enemies by catching them into the hole
+        in the ground that is covered with floor tiles to make it hidden.
+      Currency: 5
+      Price: 100
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: trapFloor
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: trapFloor
+      MaxCountOfThisItem: 100
+      name: Trap floor
+      id: 3
+      level: 2
+      asset: {fileID: 106100, guid: b923b6412c40442db8941d780940e559, type: 3}
+      damagePoints: 10
+      range: 2
+      fireRate: 2
+      damageType: 1
+      targetType: 1
+      entityType: 8
+      damageBonus: 0
+      grassType: 1
+      pivotCorrection: 0
+      constructionType: 1
+      structureType: 42
+      requiredHQLevel: 0
+      _timeToExplosion: 0
+      _amountOfSlots: 11

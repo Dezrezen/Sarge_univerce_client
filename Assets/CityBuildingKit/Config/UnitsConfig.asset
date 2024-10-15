@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d715906acb469488d9f064013ac40e, type: 3}
+  m_Name: UnitsConfig
+  m_EditorClassIdentifier: 
+  unitsData:
+  - name: Rifleman
+    id: 0
+    image: {fileID: 21300000, guid: 91f164ea51a690740a584e1c1e1a6da9, type: 3}
+    unitPrefab: {fileID: 3671879385289846211, guid: 1633c12b8ea7d1148b38d7ae74a20582, type: 3}
+    attackAudioTrack: rifleman_shoot
+    moveAudioTrack: 
+  - name: Grenadier
+    id: 1
+    image: {fileID: 21300000, guid: debccd1b3a49ccc449a22a2028c7331d, type: 3}
+    unitPrefab: {fileID: 887064569522334331, guid: b793d9e6557934b4b98a6254fab2a175, type: 3}
+    attackAudioTrack: grenadier_shoot
+    moveAudioTrack: 
+  - name: Robot
+    id: 2
+    image: {fileID: 21300000, guid: 2e12582d087bf7d4fbc18f6c3654b180, type: 3}
+    unitPrefab: {fileID: 6084803786798156514, guid: 5eda921d765ae354590ca4763d562f54, type: 3}
+    attackAudioTrack: 
+    moveAudioTrack: 
+  - name: Hacker
+    id: 3
+    image: {fileID: 21300000, guid: 81c0c7419f075ff43891dcc7f456596f, type: 3}
+    unitPrefab: {fileID: 5934583881177147108, guid: 8ef2a63daa4286145b7b2261573f3ff9, type: 3}
+    attackAudioTrack: 
+    moveAudioTrack: 
+  - name: Rocketman
+    id: 4
+    image: {fileID: 21300000, guid: a1bb46094cc07b44aaff4266dec4c51e, type: 3}
+    unitPrefab: {fileID: 1076721433124897511, guid: 7104b5d34bb49ef4b8674cd045c74576, type: 3}
+    attackAudioTrack: rocketman_shoot
+    moveAudioTrack: 
+  - name: Suit Walker
+    id: 5
+    image: {fileID: 21300000, guid: 0ba9170bf3818e243be7383da8dc81ea, type: 3}
+    unitPrefab: {fileID: 3997704357624973887, guid: 0bbbf7c84a4a96242928051a6f5cba35, type: 3}
+    attackAudioTrack: 
+    moveAudioTrack: 
+  - name: Small Tank
+    id: 6
+    image: {fileID: 21300000, guid: 2e493932830aa9e498706be18d9b5c50, type: 3}
+    unitPrefab: {fileID: 1441890237368912254, guid: d2966906f8560e04b9b2ef678e07ea83, type: 3}
+    attackAudioTrack: smalltank_shoot
+    moveAudioTrack: 
+  - name: Buggy
+    id: 7
+    image: {fileID: 21300000, guid: 69eed76273d27db42be1d3f247c704d8, type: 3}
+    unitPrefab: {fileID: 3935793188839066335, guid: 825b8e13d51245943be4f1b91f8bb61f, type: 3}
+    attackAudioTrack: buggy_shoot
+    moveAudioTrack: 
+  - name: Rocket Buggy
+    id: 8
+    image: {fileID: 21300000, guid: 5f6077674ad284c48a2be4399a662add, type: 3}
+    unitPrefab: {fileID: 1289890996912929810, guid: 344be8df00ddebc418267b397ed42fa3, type: 3}
+    attackAudioTrack: helicopter_shoot
+    moveAudioTrack: 
+  - name: Armored Truck
+    id: 10
+    image: {fileID: 21300000, guid: eea5086f6d3e496498872c365eca933f, type: 3}
+    unitPrefab: {fileID: 2657062112465409867, guid: a32f82a1b17397a45bedb0dc28947bc5, type: 3}
+    attackAudioTrack: 
+    moveAudioTrack: 
+  - name: Helicopter
+    id: 9
+    image: {fileID: 21300000, guid: 67a769b21f9ea47449ba413fdc16f014, type: 3}
+    unitPrefab: {fileID: 3692740670612756525, guid: ddc6d5dd9cb60cc4aabf671fbc696886, type: 3}
+    attackAudioTrack: helicopter_shoot
+    moveAudioTrack: 

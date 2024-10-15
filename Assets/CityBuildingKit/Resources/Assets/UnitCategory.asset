@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb87e8de48a4d01aab61ab9ea3e5a8d, type: 3}
+  m_Name: UnitCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: unit
+  category:
+  - name: Sarge
+    id: 0
+    levels:
+    - Description: Test SARGE
+      Currency: 0
+      Price: 0
+      TimeToBuild: 0
+      XpAward: 0
+      HP: 0
+      UpRatio: 0
+      IdOfBigIcon: 
+      IdOfSmallIcon: 
+      IdOfIconOnBuyButton: 
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Test SARGE
+      id: 0
+      level: 1
+      size: 1
+      priceToSpeedUpUpgrade: 0
+      asset: {fileID: 5412117350323286562, guid: 087f58407129f4e898f3d5c4e508656b,
+        type: 3}
+      damagePoints: 0
+      fireRate: 0
+      damageType: 0
+      _amountOfSlotsInTrap: 1
+      unit: 11
+      targetType: 3
+      type: 1
+      rangeAttack: 18
+      preferredTarget: 0
+      movementSpeed: 0
+      durationOfSargeSpecialAbility: 0
+      requiredBarracksLevel: 0
+      entityType: 1
+  - name: Rifleman
+    id: 1
+    levels:
+    - Description: It is a single-target, short-range unit
+      Currency: 2
+      Price: 50
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: archer
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Archer
+      id: 1
+      level: 1
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 85e33da883c264afdbb70c49d7b6a5aa, type: 3}
+      damagePoints: 10
+      fireRate: 3
+      damageType: 0
+      _amountOfSlotsInTrap: 1
+      unit: 12
+      targetType: 1
+      type: 1
+      rangeAttack: 3
+      preferredTarget: 0
+      movementSpeed: 1
+      durationOfSargeSpecialAbility: 0
+      requiredBarracksLevel: 1
+      entityType: 1
+    - Description: It is a single-target, short-range unit
+      Currency: 2
+      Price: 50
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: archer
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Archer
+      id: 1
+      level: 2
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 85e33da883c264afdbb70c49d7b6a5aa, type: 3}
+      damagePoints: 10
+      fireRate: 3
+      damageType: 0
+      _amountOfSlotsInTrap: 1
+      unit: 12
+      targetType: 1
+      type: 1
+      rangeAttack: 3
+      preferredTarget: 0
+      movementSpeed: 1
+      durationOfSargeSpecialAbility: 0
+      requiredBarracksLevel: 1
+      entityType: 1
+  - name: Grenadier
+    id: 2
+    levels:
+    - Description: Grenadier is a single-target ranged unit that is unlocked by the
+        player when they upgrade the Barracks for level [2].
+      Currency: 2
+      Price: 50
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: archer
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Grenadier
+      id: 2
+      level: 1
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 5eca72ce6b5c94b8db3ec1b34f7645dd, type: 3}
+      damagePoints: 10
+      fireRate: 3
+      damageType: 0
+      _amountOfSlotsInTrap: 1
+      unit: 12
+      targetType: 3
+      type: 1
+      rangeAttack: 4
+      preferredTarget: 0
+      movementSpeed: 30
+      durationOfSargeSpecialAbility: 0
+      requiredBarracksLevel: 2
+      entityType: 1
+  - name: Robot
+    id: 3
+    levels:
+    - Description: Robot is a single-target melee unit that is unlocked by the player
+        when they upgrade the Barracks for level [3].
+      Currency: 2
+      Price: 50
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: archer
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Robot
+      id: 3
+      level: 1
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 66806fd1bb747400e81e4fbb471c2798, type: 3}
+      damagePoints: 10
+      fireRate: 3
+      damageType: 0
+      _amountOfSlotsInTrap: 1
+      unit: 12
+      targetType: 1
+      type: 1
+      rangeAttack: 4
+      preferredTarget: 2
+      movementSpeed: 30
+      durationOfSargeSpecialAbility: 0
+      requiredBarracksLevel: 3
+      entityType: 1

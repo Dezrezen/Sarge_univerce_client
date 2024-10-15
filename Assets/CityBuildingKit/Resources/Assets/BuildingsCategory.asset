@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1871346d246841f1a18077cd591838c0, type: 3}
+  m_Name: BuildingsCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: buildings
+  category:
+  - name: Supply drop
+    id: 0
+    levels:
+    - Description: Supply drop to store supply
+      Currency: 2
+      Price: 3
+      TimeToBuild: 15
+      XpAward: 100
+      HP: 100
+      UpRatio: 2
+      IdOfBigIcon: supplyDrop_1
+      IdOfSmallIcon: supplyDrop_1
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: supplyDrop_1
+      MaxCountOfThisItem: 10
+      name: Supply drop
+      id: 3
+      level: 1
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: b9d0e4ec978a74cfabc8a1007b61d2c0, type: 3}
+      structureType: 4
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 10
+      storeType: 2
+      storeResource: 9
+      storeCap: 2000
+      damagePoints: 0
+      fireRate: 0
+      grassType: 3
+      pivotCorrection: 0
+      constructionType: 2
+      isMovable: 1
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 0
+      entityType: 4
+    - Description: Supply drop to store supply
+      Currency: 2
+      Price: 3
+      TimeToBuild: 15
+      XpAward: 100
+      HP: 400
+      UpRatio: 2
+      IdOfBigIcon: supplyDrop_1
+      IdOfSmallIcon: supplyDrop_1
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: supplyDrop_1
+      MaxCountOfThisItem: 10
+      name: Supply drop
+      id: 3
+      level: 2
+      requiredHQLevelForUpgrade: 2
+      asset: {fileID: 100000, guid: 646d7e6d7b9b74f07b8c89798c69efb1, type: 3}
+      structureType: 4
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 10
+      storeType: 2
+      storeResource: 9
+      storeCap: 2000
+      damagePoints: 0
+      fireRate: 0
+      grassType: 3
+      pivotCorrection: 0
+      constructionType: 2
+      isMovable: 1
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 0
+      entityType: 4
+  - name: Power plant
+    id: 1
+    levels:
+    - Description: Test building item - power plant
+      Currency: 2
+      Price: 3
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 2
+      IdOfBigIcon: power-plant
+      IdOfSmallIcon: power-plant
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: power-plant
+      MaxCountOfThisItem: 100
+      name: Power Plant
+      id: 0
+      level: 1
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: a251ddd37944c4ce0967bdee64e362a9, type: 3}
+      structureType: 1
+      prodType: 8
+      isProductionBuilding: 1
+      prodPerHour: 100000
+      storeType: 1
+      storeResource: 8
+      storeCap: 500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 4
+      pivotCorrection: 1
+      constructionType: 2
+      isMovable: 1
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 0
+      entityType: 4
+    - Description: Test building item - power plant
+      Currency: 2
+      Price: 3
+      TimeToBuild: 1
+      XpAward: 100
+      HP: 200
+      UpRatio: 2
+      IdOfBigIcon: power-plant
+      IdOfSmallIcon: power-plant
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: power-plant
+      MaxCountOfThisItem: 100
+      name: Power Plant
+      id: 0
+      level: 2
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: f13687a2d1e9e4b5fa1f36758445e6e9, type: 3}
+      structureType: 1
+      prodType: 8
+      isProductionBuilding: 1
+      prodPerHour: 100000
+      storeType: 1
+      storeResource: 8
+      storeCap: 500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 4
+      pivotCorrection: 1
+      constructionType: 2
+      isMovable: 1
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 0
+      entityType: 4
+  - name: Supply Vault
+    id: 2
+    levels:
+    - Description: Test building item - Supply Vault
+      Currency: 3
+      Price: 3
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 2
+      IdOfBigIcon: supplyVault
+      IdOfSmallIcon: supplyVault
+      IdOfIconOnBuyButton: crystal
+      IdOfBlackBigIcon: supplyVault
+      MaxCountOfThisItem: 100
+      name: Supply Vault
+      id: 4
+      level: 1
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: 7fb1445459c9cea4db085b2eee41eb28, type: 3}
+      structureType: 5
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 100000
+      storeType: 0
+      storeResource: 1
+      storeCap: 500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 2
+      isMovable: 1
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 1
+      entityType: 4
+    - Description: Test building item - Supply Vault
+      Currency: 3
+      Price: 3
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 2
+      IdOfBigIcon: supplyVault
+      IdOfSmallIcon: supplyVault
+      IdOfIconOnBuyButton: crystal
+      IdOfBlackBigIcon: supplyVault
+      MaxCountOfThisItem: 100
+      name: Supply Vault
+      id: 4
+      level: 2
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 919132149155446097, guid: 01274d8584df89042a2a7062d1e92a90, type: 3}
+      structureType: 5
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 100000
+      storeType: 0
+      storeResource: 1
+      storeCap: 500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 2
+      isMovable: 0
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 1
+      entityType: 4
+  - name: Power storage
+    id: 3
+    levels:
+    - Description: Power storage to store power
+      Currency: 2
+      Price: 3
+      TimeToBuild: 15
+      XpAward: 100
+      HP: 400
+      UpRatio: 2
+      IdOfBigIcon: power-storage
+      IdOfSmallIcon: power-storage
+      IdOfIconOnBuyButton: mana
+      IdOfBlackBigIcon: power-storage
+      MaxCountOfThisItem: 10
+      name: Power storage
+      id: 1
+      level: 1
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: 67434256534b240859aa6993046e81bc, type: 3}
+      structureType: 2
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 0
+      storeType: 2
+      storeResource: 8
+      storeCap: 200
+      damagePoints: 0
+      fireRate: 0
+      grassType: 3
+      pivotCorrection: 0
+      constructionType: 2
+      isMovable: 1
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 0
+      entityType: 5
+    - Description: Power storage to store power - LEVEL 2
+      Currency: 2
+      Price: 200
+      TimeToBuild: 15
+      XpAward: 100
+      HP: 400
+      UpRatio: 2
+      IdOfBigIcon: power-storage
+      IdOfSmallIcon: power-storage
+      IdOfIconOnBuyButton: power-storage
+      IdOfBlackBigIcon: power-storage
+      MaxCountOfThisItem: 10
+      name: Power storage
+      id: 1
+      level: 2
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: e6eb82d53662d404cbec0e86394874e0, type: 3}
+      structureType: 2
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 0
+      storeType: 2
+      storeResource: 8
+      storeCap: 300
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 0
+      constructionType: 2
+      isMovable: 1
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 0
+      entityType: 5
+  - name: Builder station
+    id: 4
+    levels:
+    - Description: Test building item - builder station
+      Currency: 3
+      Price: 3
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 2
+      IdOfBigIcon: builderStation1
+      IdOfSmallIcon: builderStation1
+      IdOfIconOnBuyButton: crystal
+      IdOfBlackBigIcon: power-plant
+      MaxCountOfThisItem: 100
+      name: Builder station
+      id: 4
+      level: 1
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: 894c42a5e8fed499da9135898978e083, type: 3}
+      structureType: 35
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 100000
+      storeType: 0
+      storeResource: 1
+      storeCap: 500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 2
+      isMovable: 1
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 1
+      entityType: 4
+    - Description: Test building item - builder station
+      Currency: 3
+      Price: 3
+      TimeToBuild: 0
+      XpAward: 100
+      HP: 200
+      UpRatio: 2
+      IdOfBigIcon: builderStation1
+      IdOfSmallIcon: builderStation1
+      IdOfIconOnBuyButton: crystal
+      IdOfBlackBigIcon: power-plant
+      MaxCountOfThisItem: 100
+      name: Builder station
+      id: 4
+      level: 2
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: d1a2f532e1a174a4c93043119eaeb00d, type: 3}
+      structureType: 35
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 100000
+      storeType: 0
+      storeResource: 1
+      storeCap: 500
+      damagePoints: 0
+      fireRate: 0
+      grassType: 2
+      pivotCorrection: 1
+      constructionType: 2
+      isMovable: 0
+      maxBuildingAmount: 0
+      maxNumberTrapsAvailable: 0
+      builders: 1
+      entityType: 4
+  - name: HomeBase
+    id: 5
+    levels:
+    - Description: Home Base.
+      Currency: 1
+      Price: 100
+      TimeToBuild: 15
+      XpAward: 400
+      HP: 100
+      UpRatio: 1
+      IdOfBigIcon: homeBase_1
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: homeBase_1
+      MaxCountOfThisItem: 1
+      name: HomeBase
+      id: 2
+      level: 1
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: bdd595774f1dc4e08a135082d73cbffc, type: 3}
+      structureType: 3
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 0
+      storeType: 0
+      storeResource: 0
+      storeCap: 0
+      damagePoints: 0
+      fireRate: 0
+      grassType: 4
+      pivotCorrection: 1
+      constructionType: 2
+      isMovable: 0
+      maxBuildingAmount: 13
+      maxNumberTrapsAvailable: 0
+      builders: 0
+      entityType: 2
+    - Description: Home Base 2.
+      Currency: 1
+      Price: 20
+      TimeToBuild: 15
+      XpAward: 400
+      HP: 200
+      UpRatio: 1
+      IdOfBigIcon: homeBase_2
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: homeBase_2
+      MaxCountOfThisItem: 1
+      name: HomeBase
+      id: 2
+      level: 2
+      requiredHQLevelForUpgrade: 0
+      asset: {fileID: 100000, guid: e7cf0ae1f6afe47e6926784297f36000, type: 3}
+      structureType: 3
+      prodType: 0
+      isProductionBuilding: 0
+      prodPerHour: 0
+      storeType: 0
+      storeResource: 0
+      storeCap: 0
+      damagePoints: 0
+      fireRate: 0
+      grassType: 4
+      pivotCorrection: 1
+      constructionType: 2
+      isMovable: 0
+      maxBuildingAmount: 17
+      maxNumberTrapsAvailable: 0
+      builders: 0
+      entityType: 2

@@ -1,0 +1,22 @@
+###StartofFile###
+###PosStruct###
+Building,BuilderStation,1,2,-634,721.5,4,1,Buildings
+Building,SupplyDrop,2,3,-1270,355.5,3,1,Buildings
+Building,HomeBase,0,4,128,898.5,2,1,Buildings
+###GridStruct###
+###Construction###
+###Removables###
+###RemovableTimers###
+###Numerics###
+2,2,2
+0.00,0
+0,1,1,1,0,0,0,0,0,0
+1,1,1,1,0,0,0,0,0,0
+[{"id":0,"level":1,"count":10}]
+###Economy###
+###Stats###
+1,10,2,0,100,1,0,100000,100000,100000,100000,100000,500000,500000,5,False,False,False,True,True,True,10000,10000
+4/9/2024 5:38:45 PM
+###UnitsInfo###
+[]
+###EndofFile###
