@@ -19,6 +19,8 @@
         BattleFrame = 14,
         BattleEnd = 15,
         
+        BuyItem = 50,
+        
         AddMoney = 99,
         RestartGame = 100
     }

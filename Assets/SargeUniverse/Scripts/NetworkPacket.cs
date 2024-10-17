@@ -126,6 +126,16 @@ namespace SargeUniverse.Scripts
             packet.Write(battleType);
             _packetSender.SendPacket(packet);
         }
+
+        public void SendBuyPacketRequest(string id)
+        {
+            var packet = new Packet();
+            packet.Write((int)RequestID.BuyItem);
+            packet.Write(id);
+            _packetSender.SendPacket(packet);
+        }
+        
+        // Test packets
         
         public void SendAddMoneyRequest()
         {

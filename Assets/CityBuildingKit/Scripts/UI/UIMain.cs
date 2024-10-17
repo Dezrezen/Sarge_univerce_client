@@ -3,14 +3,14 @@ using SargeUniverse.Scripts;
 using SargeUniverse.Scripts.Controller;
 using SargeUniverse.Scripts.Sound;
 using SargeUniverse.Scripts.UI;
+using SargeUniverse.Scripts.UI.Shop;
 using TMPro;
 using UI.Base;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Zenject;
 
-namespace UI
+namespace CityBuildingKit.Scripts.UI
 {
     public class UIMain : UIScreen
     {
