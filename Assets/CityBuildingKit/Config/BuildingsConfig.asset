@@ -339,27 +339,27 @@ MonoBehaviour:
     buildingId: 11
     buildingType: 4
     playerLevelSprites:
-    - {fileID: 21300000, guid: 6489030d5b6b47d4abc195bca2f7b78a, type: 3}
-    - {fileID: 21300000, guid: 80ecbe36aff1a7a4dbce5691f648575f, type: 3}
-    - {fileID: 21300000, guid: a0b3e88f316d9384688b8b75385c854e, type: 3}
-    - {fileID: 21300000, guid: 6c90425887d32c645923a3b5b0f34133, type: 3}
-    - {fileID: 21300000, guid: e3e4e9af825774c4ca3a89e85a32305f, type: 3}
-    - {fileID: 21300000, guid: d6e120adc9db21741af9f75cb0cd0ed9, type: 3}
-    - {fileID: 21300000, guid: 8bc4d70b636e523499eaa50f56c12666, type: 3}
-    - {fileID: 21300000, guid: 659613f9ce84e3843b4694cc6c8e5f4a, type: 3}
-    - {fileID: 21300000, guid: bdd34a8055ff3ad49973a9e9a018cde4, type: 3}
-    - {fileID: 21300000, guid: db27018b9ca7dff4db51e892e4a8aa62, type: 3}
+    - {fileID: 21300000, guid: c01d77e8130e6524687c6f0d53d367c4, type: 3}
+    - {fileID: 21300000, guid: 9f1dc245d33d2dd449fbbe9f28dcc236, type: 3}
+    - {fileID: 21300000, guid: 0a1f47b9931b51e4987e5630cd6e4ded, type: 3}
+    - {fileID: 21300000, guid: 224db654babcba14ab323e989d02da5b, type: 3}
+    - {fileID: 21300000, guid: be5e7a84a8aec6f4cb24741d55820dea, type: 3}
+    - {fileID: 21300000, guid: 5573cca9f229fa04f9fd862343bd0241, type: 3}
+    - {fileID: 21300000, guid: 8ae620a51a82e184ba1c7035094472e3, type: 3}
+    - {fileID: 21300000, guid: 7731d1905c8bf87419175567631ab4a1, type: 3}
+    - {fileID: 21300000, guid: b06056fc6c847f7479888517bd25e424, type: 3}
+    - {fileID: 21300000, guid: cd5b3260340a1ad4a97418a542bbaafc, type: 3}
     opponentLevelSprite:
-    - {fileID: 21300000, guid: 3bd88a4afc8d0394fbf926b9d8edba51, type: 3}
-    - {fileID: 21300000, guid: a29895e30fbb3b645af4e81589bc1347, type: 3}
-    - {fileID: 21300000, guid: f1f0d4df647b0be4496583efa41ac982, type: 3}
-    - {fileID: 21300000, guid: 825c33d38ca204e41833ab9a17843ad6, type: 3}
-    - {fileID: 21300000, guid: 37653464d2b663441858304dabd40679, type: 3}
-    - {fileID: 21300000, guid: f2fd156fb56dec245a39160c64deff0a, type: 3}
-    - {fileID: 21300000, guid: 912589b91f904f24b9019b4443c79628, type: 3}
-    - {fileID: 21300000, guid: cc5a883244cc05045ba07f91a15fce47, type: 3}
-    - {fileID: 21300000, guid: f8f6e99085563884aa588825e84a7b28, type: 3}
-    - {fileID: 21300000, guid: 96e9a0fadbb108f4db6df72e00204d16, type: 3}
+    - {fileID: 21300000, guid: 92ef5a8faa197a14fb3b9f59942f7f8e, type: 3}
+    - {fileID: 21300000, guid: d48dbf3e52f2ac64881f095d1831ffe3, type: 3}
+    - {fileID: 21300000, guid: e92bdb4a89c0ce84e8f3ff943c3ed440, type: 3}
+    - {fileID: 21300000, guid: 402ec4573b6df5d4d89875d2903aaa8f, type: 3}
+    - {fileID: 21300000, guid: e72a93906a181e34f9b1f576dd181d2f, type: 3}
+    - {fileID: 21300000, guid: 001f8b2206b6b1941aa0d08dda5463f7, type: 3}
+    - {fileID: 21300000, guid: 38edc35d679204f42a74ff65dcd7656a, type: 3}
+    - {fileID: 21300000, guid: 0bf27e89eb334d944a3c5d611ad7abec, type: 3}
+    - {fileID: 21300000, guid: 4179812bc2b1390468caf10c36acb042, type: 3}
+    - {fileID: 21300000, guid: ab708e49548d9b2488b594a0ccd9e1b2, type: 3}
   - Name: Mortar
     buildingPrefab: {fileID: 2194025401323559653, guid: dca1062c582cc1d4b8ed1de7e287ffbe, type: 3}
     opponentPrefab: {fileID: 7433079347454983193, guid: c4d8b732ef5d35346b29c46709201797, type: 3}
