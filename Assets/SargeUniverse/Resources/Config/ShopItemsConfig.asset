@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328845b818b44c4484d488976504b9a4, type: 3}
+  m_Name: ShopItemsConfig
+  m_EditorClassIdentifier: 
+  shopItems:
+  - name: Supplies 10%
+    id: supplies_10
+    description: 
+    icon: {fileID: 21300000, guid: c43cfb6c963a38046af4d6c67a694219, type: 3}
+    price: 9.99
+    type: 0
+  - name: Supplies 25%
+    id: supplies_25
+    description: 
+    icon: {fileID: 21300000, guid: 02bf2924210474047bf481895a8e1316, type: 3}
+    price: 19.99
+    type: 0
+  - name: Supplies 50%
+    id: supplies_50
+    description: 
+    icon: {fileID: 21300000, guid: 725b758b15cde7a46bda9fcc390dfdb3, type: 3}
+    price: 39.99
+    type: 0
+  - name: Supplies 100%
+    id: supplies_100
+    description: 
+    icon: {fileID: 21300000, guid: b3bae3b1547d85a4eaf028179a223593, type: 3}
+    price: 59.99
+    type: 0
+  - name: Power 10%
+    id: power_10
+    description: 
+    icon: {fileID: 21300000, guid: 8b6680e62d394674dbebc86f9abc2dcf, type: 3}
+    price: 9.99
+    type: 1
+  - name: Power 25%
+    id: power_25
+    description: 
+    icon: {fileID: 21300000, guid: 470a38055c3044c4b9b2601e532534dc, type: 3}
+    price: 19.99
+    type: 1
+  - name: Power 50%
+    id: power_50
+    description: 
+    icon: {fileID: 21300000, guid: 5f80a04e10fd1194ead8386b86281e14, type: 3}
+    price: 39.99
+    type: 1
+  - name: Power 100%
+    id: power_100
+    description: 
+    icon: {fileID: 21300000, guid: 7a5d5936f88d1fe4b9a2504c20d5984a, type: 3}
+    price: 59.99
+    type: 1
+  - name: Tachyon Energy 10%
+    id: tachyon_10
+    description: 
+    icon: {fileID: 21300000, guid: 3ef7579fd0ab49d4ebb1ab51caf4b3ec, type: 3}
+    price: 9.99
+    type: 2
+  - name: Tachyon Energy 25%
+    id: tachyon_25
+    description: 
+    icon: {fileID: 21300000, guid: 0d66f77e86eb249448f53e2fdf311d56, type: 3}
+    price: 19.99
+    type: 2
+  - name: Tachyon Energy 50%
+    id: tachyon_50
+    description: 
+    icon: {fileID: 21300000, guid: 6301aaff77a66cb40aa5b8f9559caea7, type: 3}
+    price: 39.99
+    type: 2
+  - name: Tachyon Energy 100%
+    id: tachyon_100
+    description: 
+    icon: {fileID: 21300000, guid: 671b02137ed30a048a901e000b486db5, type: 3}
+    price: 59.99
+    type: 2
+  - name: Pile of Credits
+    id: credits_100
+    description: 100
+    icon: {fileID: 21300000, guid: bcb739fd724d7544896d6226343e9cd6, type: 3}
+    price: 0.99
+    type: 3
+  - name: Pouch of Credits
+    id: credits_600
+    description: 600
+    icon: {fileID: 21300000, guid: b03ed80987b162348b2775606eddb2d0, type: 3}
+    price: 4.99
+    type: 3
+  - name: Bag of Credits
+    id: credits_1500
+    description: 1500
+    icon: {fileID: 21300000, guid: faec504a44189a847a4ffc283907cf54, type: 3}
+    price: 9.99
+    type: 3
+  - name: Case of Credits
+    id: credits_3500
+    description: 3500
+    icon: {fileID: 21300000, guid: 5eba637c42aa494429c3dec09f2e0f4f, type: 3}
+    price: 19.99
+    type: 3
+  - name: Crate of Credits
+    id: credits_8500
+    description: 8500
+    icon: {fileID: 21300000, guid: 3e8335e7194e34b428ac35403979512a, type: 3}
+    price: 49.99
+    type: 3
+  - name: Vault of Credits
+    id: credits_20000
+    description: 20000
+    icon: {fileID: 21300000, guid: 87effb216bcb9524892aeb385ef699cf, type: 3}
+    price: 99.99
+    type: 3
+  - name: Shield 6 hours
+    id: shield_6_h
+    description: 
+    icon: {fileID: 21300000, guid: 71980e8bd61ef6440ac754f1cd9a8d2a, type: 3}
+    price: 9.99
+    type: 4
+  - name: Shield 1 day
+    id: shield_1_d
+    description: 
+    icon: {fileID: 21300000, guid: 24d6eeac3cd9ac941abbde5da4faa054, type: 3}
+    price: 19.99
+    type: 4
+  - name: Shield 3 days
+    id: shield_3_d
+    description: 
+    icon: {fileID: 21300000, guid: c95689b5311d8644db8b5bd36fa35893, type: 3}
+    price: 39.99
+    type: 4
+  - name: Shield 1 week
+    id: shield_1_w
+    description: 
+    icon: {fileID: 21300000, guid: df06b75cd0abf7d46b4672dd190d44ef, type: 3}
+    price: 59.99
+    type: 4
