@@ -1,16 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using UI;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace UI
+namespace SargeUniverse.Scripts.UI.Shop
 {
-    public class ShopTabsScroll : MonoBehaviour
+    public class ShopTabsGroup : MonoBehaviour
     {
         [SerializeField] private ShopTabButton[] _tabButtons = null;
-        [SerializeField] private ScrollRect _scroll = null;
-
-        [SerializeField]
-        private List<RectTransform> _scrollItems = new();
+        [SerializeField] private UIShopTabPanel[] _tabPanels = null;
 
         private void Start()
         {
@@ -20,11 +16,6 @@ namespace UI
             }
         }
 
-        public void AddScrollPosition(RectTransform itemToScroll)
-        {
-            _scrollItems.Add(itemToScroll);
-        }
-        
         private void OnTabClick(int tabIndex)
         {
             for (var i = 0; i < _tabButtons.Length; i++)
@@ -32,11 +23,12 @@ namespace UI
                 if (i == tabIndex)
                 {
                     _tabButtons[i].SetTabActive();
-                    StartCoroutine(ScrollViewFocusFunctions.FocusOnItemCoroutine(_scroll, _scrollItems[i], 7f));
+                    _tabPanels[i]?.ShopPanel();
                 }
                 else
                 {
                     _tabButtons[i].SetTabInactive();
+                    _tabPanels[i]?.HidePanel();
                 }
             }
         }
