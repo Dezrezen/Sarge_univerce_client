@@ -291,27 +291,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnPoints:
-  - name: Level 1
-    north: {x: 0, y: 0}
-    northWest: {x: 0, y: 0}
-    west: {x: 0, y: 0}
-    southWest: {x: 0, y: 0}
-    south: {x: 0, y: 0}
-    southEast: {x: 0, y: 0}
-    east: {x: 0, y: 0}
-    northEast: {x: 0, y: 0}
+  - name: Spawn
+    north: {x: 0, y: 0.215}
+    northWest: {x: 0.034, y: 0.111}
+    west: {x: 0, y: 0.102}
+    southWest: {x: 0.09, y: 0.18}
+    south: {x: 0, y: 0.099}
+    southEast: {x: -0.09, y: 0.18}
+    east: {x: 0, y: 0.102}
+    northEast: {x: -0.034, y: 0.111}
   _offsets:
-    name: Level 1
-    north: {x: 0, y: 0}
-    northWest: {x: 0, y: 0}
-    west: {x: 0, y: 0}
-    southWest: {x: 0, y: 0}
-    south: {x: 0, y: 0}
-    southEast: {x: 0, y: 0}
-    east: {x: 0, y: 0}
-    northEast: {x: 0, y: 0}
+    name: Offset
+    north: {x: 0.14, y: 0}
+    northWest: {x: 0.03, y: 0.1}
+    west: {x: 0, y: 0.09}
+    southWest: {x: -0.1, y: 0.084}
+    south: {x: -0.129, y: 0}
+    southEast: {x: -0.1, y: -0.084}
+    east: {x: 0, y: -0.09}
+    northEast: {x: 0.034, y: -0.111}
   _projectilesOverLevel: 02000000
-  _spawnDelay: 0.1
+  _spawnDelay: 0.58
   _projectilePrefab: {fileID: 3472421553395470336, guid: 3ce843199c0ba5d4597994ac19f88c92, type: 3}
 --- !u!1 &6455513578433816809
 GameObject:
