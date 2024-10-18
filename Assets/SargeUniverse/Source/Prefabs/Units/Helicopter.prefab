@@ -358,17 +358,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beda8822258248b79a3cc2f78fc9b1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnPoints: []
-  _offsets:
-    name: Level 1
+  _spawnPoints:
+  - name: Spawn
     north: {x: 0, y: 0}
-    northWest: {x: 0, y: 0}
-    west: {x: 0, y: 0}
-    southWest: {x: 0, y: 0}
-    south: {x: 0, y: 0}
-    southEast: {x: 0, y: 0}
-    east: {x: 0, y: 0}
-    northEast: {x: 0, y: 0}
+    northWest: {x: -0.25, y: 0.06}
+    west: {x: -0.24, y: -0.07}
+    southWest: {x: -0.24, y: -0.27}
+    south: {x: 0, y: -0.3}
+    southEast: {x: 0.24, y: -0.27}
+    east: {x: 0.24, y: -0.07}
+    northEast: {x: 0.25, y: 0.06}
+  _offsets:
+    name: Offset
+    north: {x: 0.31, y: 0}
+    northWest: {x: 0.237, y: 0.2}
+    west: {x: 0, y: -0.2}
+    southWest: {x: 0.17, y: -0.1}
+    south: {x: -0.34, y: 0}
+    southEast: {x: -0.17, y: -0.1}
+    east: {x: 0, y: 0.2}
+    northEast: {x: 0.237, y: -0.2}
   _projectilesOverLevel: 02000000
   _spawnDelay: 0.1
   _projectilePrefab: {fileID: 4439198137634708354, guid: 7c9003d708feb934c96d0652e2fb3fa1, type: 3}
