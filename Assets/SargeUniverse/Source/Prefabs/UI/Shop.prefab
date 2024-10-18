@@ -10234,7 +10234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8412517208722780218}
-  - component: {fileID: 1996342874504533502}
+  - component: {fileID: 88466975078193035}
   m_Layer: 5
   m_Name: MarketPanel
   m_TagString: Untagged
@@ -10262,7 +10262,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1996342874504533502
+--- !u!114 &88466975078193035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10271,7 +10271,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4527399368898556287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db56646f79184315b744f79b712d7fe5, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b7e8d4393df426499f0d1fce2ec1416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _content: {fileID: 221421077558735599}
@@ -14272,7 +14272,7 @@ MonoBehaviour:
   - {fileID: 3954829313974733116}
   _tabPanels:
   - {fileID: 305611434600395419}
-  - {fileID: 1996342874504533502}
+  - {fileID: 88466975078193035}
   - {fileID: 7961191272572630188}
   - {fileID: 4033362398736072432}
   - {fileID: 0}
@@ -20682,7 +20682,7 @@ MonoBehaviour:
   _shopTabsGroup: {fileID: 7689366126750888820}
   _shopTabPanels:
   - {fileID: 305611434600395419}
-  - {fileID: 1996342874504533502}
+  - {fileID: 88466975078193035}
   - {fileID: 7961191272572630188}
   - {fileID: 4033362398736072432}
   _supplySlider: {fileID: 2849988548150757476}
