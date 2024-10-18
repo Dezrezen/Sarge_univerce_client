@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using CityBuildingKit.Scripts.UI;
 using Controller;
@@ -19,7 +18,7 @@ namespace SargeUniverse.Scripts.UI.Shop
     public class UIShop : UIScreen
     {
         [SerializeField] private Button _closeButton = null;
-
+        [SerializeField] private ShopTabsGroup _shopTabsGroup = null;
         [SerializeField] private List<UIShopTabPanel> _shopTabPanels = new();
         
         [Header("Bottom Group")]
@@ -51,24 +50,22 @@ namespace SargeUniverse.Scripts.UI.Shop
                 tab.Init(this);
             }
         }
-
-        protected override void Start()
-        {
-            base.Start();
-            _shopTabPanels.First().ShopPanel();
-        }
         
         public override void ShowScreen()
         {
             base.ShowScreen();
             UIManager.Instanse.LockScreenMove = true;
             _buildingsManager.DeselectBuilding();
+            
+            _shopTabsGroup.GetActivePanel().ShopPanel();
         }
 
         public override void HideScreen()
         {
             base.HideScreen();
             UIManager.Instanse.LockScreenMove = false;
+            
+            _shopTabsGroup.GetActivePanel().HidePanel();
         }
         
         protected override void SubscribeForEvents()
