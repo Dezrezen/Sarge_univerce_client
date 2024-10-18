@@ -291,17 +291,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnPoints:
-  - name: 
-    north: {x: 0, y: 0}
-    northWest: {x: 0, y: 0}
-    west: {x: 0, y: 0}
-    southWest: {x: 0, y: 0}
-    south: {x: 0, y: 0}
-    southEast: {x: 0, y: 0}
-    east: {x: 0, y: 0}
-    northEast: {x: 0, y: 0}
+  - name: Spawn
+    north: {x: 0.127, y: 0.719}
+    northWest: {x: -0.357, y: 0.646}
+    west: {x: -0.552, y: 0.371}
+    southWest: {x: -0.601, y: 0.007}
+    south: {x: -0.176, y: -0.245}
+    southEast: {x: 0.401, y: -0.183}
+    east: {x: 0.671, y: 0.178}
+    northEast: {x: 0.525, y: 0.531}
   _offsets:
-    name: Level 1
+    name: Offset
     north: {x: 0, y: 0}
     northWest: {x: 0, y: 0}
     west: {x: 0, y: 0}
