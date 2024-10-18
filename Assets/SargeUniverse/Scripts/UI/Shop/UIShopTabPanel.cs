@@ -26,6 +26,7 @@ namespace SargeUniverse.Scripts.UI.Shop
         public virtual void ShopPanel()
         {
             gameObject.SetActive(true);
+            UpdateCards();
         }
 
         public virtual void HidePanel()

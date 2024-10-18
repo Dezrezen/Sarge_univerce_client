@@ -6,7 +6,7 @@ using Zenject;
 
 namespace SargeUniverse.Scripts.UI.Shop
 {
-    public class UIShopResourcesTabPanel : UIShopTabPanel
+    public class UIShopMarketTabPanel : UIShopTabPanel
     {
         [SerializeField] private ShopTabsScroll _shopTabsScroll = null;
         [SerializeField] private ShopItemCard _cardPrefab = null;

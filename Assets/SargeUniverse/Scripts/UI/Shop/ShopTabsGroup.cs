@@ -8,6 +8,8 @@ namespace SargeUniverse.Scripts.UI.Shop
         [SerializeField] private ShopTabButton[] _tabButtons = null;
         [SerializeField] private UIShopTabPanel[] _tabPanels = null;
 
+        private int _tabIndex = 0;
+        
         private void Start()
         {
             for (var i = 0; i < _tabButtons.Length; i++)
@@ -16,8 +18,14 @@ namespace SargeUniverse.Scripts.UI.Shop
             }
         }
 
+        public UIShopTabPanel GetActivePanel()
+        {
+            return _tabPanels[_tabIndex];
+        }
+
         private void OnTabClick(int tabIndex)
         {
+            _tabIndex = tabIndex;
             for (var i = 0; i < _tabButtons.Length; i++)
             {
                 if (i == tabIndex)

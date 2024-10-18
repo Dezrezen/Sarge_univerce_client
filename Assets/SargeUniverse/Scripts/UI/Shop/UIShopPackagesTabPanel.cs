@@ -1,6 +1,6 @@
 namespace SargeUniverse.Scripts.UI.Shop
 {
-    public class UIShopDecorationsTabPanel : UIShopTabPanel
+    public class UIShopPackagesTabPanel : UIShopTabPanel
     {
         
     }
