@@ -34,6 +34,12 @@ namespace SargeUniverse.Scripts.Environment.Projectiles
         protected override void UpdateProjectilePosition()
         {
             base.UpdateProjectilePosition();
+
+            if (_target)
+            {
+                _sphereGraphics.transform.position = _target.position;
+            }
+            
             _sphereGraphics.UpdateSphereGraphics();
             
             if (_scale > _finishScale)

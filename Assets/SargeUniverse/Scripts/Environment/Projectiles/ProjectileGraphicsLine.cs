@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace SargeUniverse.Scripts.Environment.Projectiles
@@ -7,6 +8,7 @@ namespace SargeUniverse.Scripts.Environment.Projectiles
     public class ProjectileGraphicsLine : ProjectileGraphics
     {
         [SerializeField] private List<Sprite> _sprites = new();
+        [SerializeField] private float _size = 1f;
         
         private LineRenderer _lineRenderer = null;
         private Material _material = null;
@@ -17,8 +19,14 @@ namespace SargeUniverse.Scripts.Environment.Projectiles
             _lineRenderer = GetComponent<LineRenderer>();
             _material = new Material(_lineRenderer.material);
         }
-        
-        private void Update()
+
+        private void Start()
+        {
+            _lineRenderer.startWidth = _size;
+            _lineRenderer.endWidth = _size;
+        }
+
+        private void FixedUpdate()
         {
             _material.mainTexture = _sprites[_spriteIndex].texture;
             _lineRenderer.material = _material;
