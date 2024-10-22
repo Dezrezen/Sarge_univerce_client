@@ -21,10 +21,16 @@ namespace TestTools
         [SerializeField] private float _projectileSpeed = 10f;
         private State _state = State.Idle;
         private MovementDirection _direction = MovementDirection.North;
-        
+
+        [SerializeField]private Transform _mouseTransform;
 
         private void Update()
         {
+            var mousePos = Mouse.current.position.ReadValue();
+            var mousePosOnPlane = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x , mousePos.y, 0));
+            _mouseTransform.position = new Vector3(mousePosOnPlane.x, mousePosOnPlane.y, -1);
+            
+            
             if (Keyboard.current[Key.Q].wasPressedThisFrame)
             {
                 _direction = MovementDirection.NorthWest;
@@ -149,6 +155,12 @@ namespace TestTools
                 _animator.PlayAttackAnimation(_level, () => SpawnProjectile(_direction));
             }
             
+            if (Keyboard.current[Key.T].wasPressedThisFrame)
+            {
+                _state = State.Attack;
+                _animator.PlayAttackAnimation(_level, () => SpawnProjectile());
+            }
+            
             if (Keyboard.current[Key.NumpadPlus].wasPressedThisFrame)
             {
                 if (_level < _maxLevel)
@@ -210,6 +222,11 @@ namespace TestTools
             targetPosition += Vector3.up;
             
             _projectileSystem.SpawnProjectile(_projectileSystem.transform.position + targetPosition, _projectileSpeed, _level);
+        }
+
+        private void SpawnProjectile()
+        {
+            _projectileSystem.SpawnProjectile(_mouseTransform, _projectileSpeed, _level);
         }
     }
 }
