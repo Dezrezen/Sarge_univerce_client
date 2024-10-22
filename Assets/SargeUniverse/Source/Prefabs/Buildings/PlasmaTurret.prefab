@@ -265,7 +265,7 @@ Transform:
   m_GameObject: {fileID: 1788112708179276036}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6, z: -0.01}
+  m_LocalPosition: {x: 0, y: 1.6, z: -0.1}
   m_LocalScale: {x: 0.85, y: 0.85, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1427,6 +1427,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4d19371174e9bd043bdd34a70c1fbbc5, type: 3}
     - {fileID: 21300000, guid: f1ee8dc936fd34e43bf293b13b9587e1, type: 3}
   _delayBetweenAttackSlides: 0.1
+  _callbackDelay: -1
   _destroySprites:
   - {fileID: 21300000, guid: 11be431f21121044db83484dc6580dfb, type: 3}
   - {fileID: 21300000, guid: 78df4bfd47f36c74d88770f67bad73f0, type: 3}

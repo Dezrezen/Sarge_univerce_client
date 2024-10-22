@@ -347,7 +347,7 @@ Transform:
   m_GameObject: {fileID: 980792682285367514}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 1.7, z: -0.01}
+  m_LocalPosition: {x: -0.01, y: 1.7, z: -0.1}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -581,6 +581,7 @@ MonoBehaviour:
     _northEast:
     - {fileID: 21300000, guid: 1845069ae8ea73b41b4565d4603102e9, type: 3}
   _delayBetweenAttackSlides: 0.1
+  _callbackDelay: -1
   _destroySprites:
   - {fileID: 21300000, guid: 11be431f21121044db83484dc6580dfb, type: 3}
   - {fileID: 21300000, guid: 78df4bfd47f36c74d88770f67bad73f0, type: 3}
@@ -617,8 +618,19 @@ MonoBehaviour:
     southEast: {x: 0.3, y: 2.8}
     east: {x: 1, y: 3}
     northEast: {x: 0.5, y: 3.5}
+  _offsets:
+    name: Level 1
+    north: {x: 0, y: 0}
+    northWest: {x: 0, y: 0}
+    west: {x: 0, y: 0}
+    southWest: {x: 0, y: 0}
+    south: {x: 0, y: 0}
+    southEast: {x: 0, y: 0}
+    east: {x: 0, y: 0}
+    northEast: {x: 0, y: 0}
+  _projectilesOverLevel: 
+  _spawnDelay: 0.3
   _projectilePrefab: {fileID: 422551584788922662, guid: 6fb01aad498ca1b4aaa20ce5663961a0, type: 3}
-  _changeScaleTransform: 1
 --- !u!1 &4200020152133723623
 GameObject:
   m_ObjectHideFlags: 0
