@@ -397,6 +397,7 @@ GameObject:
   - component: {fileID: 7297326218419222138}
   - component: {fileID: 3797782382546745273}
   - component: {fileID: 2491775766781695521}
+  - component: {fileID: 672981922405624328}
   m_Layer: 0
   m_Name: TachyonTower
   m_TagString: Untagged
@@ -446,7 +447,7 @@ MonoBehaviour:
   onSyncUpdataRequest:
     m_PersistentCalls:
       m_Calls: []
-  _projectileSystem: {fileID: 0}
+  _projectileSystem: {fileID: 672981922405624328}
   _sphereSprite: {fileID: 5725912894736563177}
   _towerSprites:
   - {fileID: 21300000, guid: 1d3c772e9d972c749987c40509e87ce6, type: 3}
@@ -806,6 +807,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ee58e0e5fdd228b43ac3814145aac71b, type: 3}
     - {fileID: 21300000, guid: cf48a771d35b37d48b5272f52341116a, type: 3}
   _delayBetweenAttackSlides: 0.1
+  _callbackDelay: -1
   _destroySprites:
   - {fileID: 21300000, guid: 11be431f21121044db83484dc6580dfb, type: 3}
   - {fileID: 21300000, guid: 78df4bfd47f36c74d88770f67bad73f0, type: 3}
@@ -868,6 +870,59 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 3730878667f1dbc4f826615eca1c7796, type: 3}
     - {fileID: 21300000, guid: 09d031c49760c2940b3a3cbc6482fe7a, type: 3}
   _delayBetweenSprites: 0.1
+--- !u!114 &672981922405624328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689196259167408710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beda8822258248b79a3cc2f78fc9b1b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawnPoints:
+  - name: Level 1
+    north: {x: 0, y: 2.7}
+    northWest: {x: 0, y: 2.7}
+    west: {x: 0, y: 2.7}
+    southWest: {x: 0, y: 2.7}
+    south: {x: 0, y: 2.7}
+    southEast: {x: 0, y: 2.7}
+    east: {x: 0, y: 2.7}
+    northEast: {x: 0, y: 2.7}
+  - name: Level 2
+    north: {x: 0, y: 2.7}
+    northWest: {x: 0, y: 2.7}
+    west: {x: 0, y: 2.7}
+    southWest: {x: 0, y: 2.7}
+    south: {x: 0, y: 2.7}
+    southEast: {x: 0, y: 2.7}
+    east: {x: 0, y: 2.7}
+    northEast: {x: 0, y: 2.7}
+  - name: Level 3
+    north: {x: 0, y: 2.7}
+    northWest: {x: 0, y: 2.7}
+    west: {x: 0, y: 2.7}
+    southWest: {x: 0, y: 2.7}
+    south: {x: 0, y: 2.7}
+    southEast: {x: 0, y: 2.7}
+    east: {x: 0, y: 2.7}
+    northEast: {x: 0, y: 2.7}
+  _offsets:
+    name: Level 1
+    north: {x: 0, y: 0}
+    northWest: {x: 0, y: 0}
+    west: {x: 0, y: 0}
+    southWest: {x: 0, y: 0}
+    south: {x: 0, y: 0}
+    southEast: {x: 0, y: 0}
+    east: {x: 0, y: 0}
+    northEast: {x: 0, y: 0}
+  _projectilesOverLevel: 
+  _spawnDelay: 0
+  _projectilePrefab: {fileID: 8626659410612985301, guid: 796b0db0bdc877b47b2b6f50dd91475d, type: 3}
 --- !u!1 &2526249135639222235
 GameObject:
   m_ObjectHideFlags: 0
