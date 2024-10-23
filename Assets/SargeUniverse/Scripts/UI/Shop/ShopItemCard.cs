@@ -1,5 +1,6 @@
 using System;
 using SargeUniverse.Scripts.Config;
+using SargeUniverse.Scripts.Enums;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,6 +19,7 @@ namespace SargeUniverse.Scripts.UI.Shop
         [Header("Button Group")]
         [SerializeField] private Button _button = null;
         [SerializeField] private TMP_Text _priceText;
+        [SerializeField] private GameObject _icon = null;
 
         private string _id = string.Empty;
         private float _price = 0f;
@@ -46,7 +48,18 @@ namespace SargeUniverse.Scripts.UI.Shop
                 _descriptionText.text = cardConfig.description;
             }
 
-            _priceText.text = string.Format("{0:F2}", cardConfig.price) + "$";
+            if (cardConfig.type is 
+                ShopItemType.Booster or ShopItemType.ResourcesPackage or ShopItemType.UAC or ShopItemType.UBC)
+            {
+                _priceText.text = $"{cardConfig.price:F0}";
+                _icon.SetActive(true);
+            }
+            else
+            {
+                _priceText.text = $"{cardConfig.price:F2}" + "$";
+                _icon.SetActive(false);
+            }
+            
             _button.onClick.AddListener(() => callback.Invoke(_id, _price));
         }
     }
