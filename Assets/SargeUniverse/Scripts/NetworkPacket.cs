@@ -19,7 +19,7 @@ namespace SargeUniverse.Scripts
             _packetSender = new Sender(networkClient);
         }
         
-        public void AuthRequest(string userName)
+        public void AuthRequest(string userName, StartBaseType type = StartBaseType.Default)
         {
             var deviceID = SystemInfo.deviceUniqueIdentifier;
             var password = PlayerPrefs.GetString(password_key, string.Empty);
@@ -30,6 +30,7 @@ namespace SargeUniverse.Scripts
             packet.Write(deviceID);
             packet.Write(userName);
             packet.Write(password);
+            packet.Write((int)type);
             _packetSender.SendPacket(packet);
         }
         
