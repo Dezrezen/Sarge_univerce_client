@@ -155,7 +155,7 @@ namespace CityBuildingKit.Scripts.UI
             _tachyonSlider.value = 1f * 
                                  _playerSyncController.Energy.GetValue() / 
                                  _playerSyncController.MaxEnergy.GetValue();
-            _tachyonText.text = _playerSyncController.Power.GetValue().ToString();
+            _tachyonText.text = _playerSyncController.Energy.GetValue().ToString();
         }
 
         private void UpdateGemsInfo()
