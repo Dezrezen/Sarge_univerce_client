@@ -145,3 +145,117 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: df06b75cd0abf7d46b4672dd190d44ef, type: 3}
     price: 59.99
     type: 4
+  - name: Builder Booster
+    id: package_builder_booster
+    description: 
+    icon: {fileID: 21300000, guid: c7e280a13cc21534d9d8124b9e8fc543, type: 3}
+    price: 50
+    type: 5
+  - name: Training Booster
+    id: package_training_booster
+    description: 
+    icon: {fileID: 21300000, guid: 465aa05fb9381b94e9835e08621a5fd8, type: 3}
+    price: 50
+    type: 5
+  - name: Resource Booster
+    id: package_resource_booster
+    description: 
+    icon: {fileID: 21300000, guid: 352bfded418ca254e92f1aa0fb53100c, type: 3}
+    price: 50
+    type: 5
+  - name: Research Booster
+    id: package_research_booster
+    description: 
+    icon: {fileID: 21300000, guid: 520abbbc71fc7e845a6a15188dcd400d, type: 3}
+    price: 50
+    type: 5
+  - name: Hero Booster
+    id: package_hero_booster
+    description: 
+    icon: {fileID: 21300000, guid: eebeb7ff71635e843951d35e46d5ff63, type: 3}
+    price: 80
+    type: 5
+  - name: 2 500 000 Supplies
+    id: package_supplies
+    description: 
+    icon: {fileID: 21300000, guid: 2a0a6357c502fd146a6e2a9d06713b15, type: 3}
+    price: 180
+    type: 6
+  - name: 2 500 000 Power
+    id: package_power
+    description: 
+    icon: {fileID: 21300000, guid: fdf080ba10e69ab4bbb770557a8eeedd, type: 3}
+    price: 180
+    type: 6
+  - name: 100 000 Tachyon
+    id: package_tachyon
+    description: 
+    icon: {fileID: 21300000, guid: c2787a7b583a62646a16ca81cc85390f, type: 3}
+    price: 250
+    type: 6
+  - name: Builder UAC
+    id: package_uac_builder
+    description: 
+    icon: {fileID: 21300000, guid: e67c7be877cf9f348b0838b076a71754, type: 3}
+    price: 200
+    type: 7
+  - name: Unit UAC
+    id: package_uac_unit
+    description: 
+    icon: {fileID: 21300000, guid: 8fe1964d68649bc4da6bdc0daef59f30, type: 3}
+    price: 200
+    type: 7
+  - name: Research UAC
+    id: package_uac_research
+    description: 
+    icon: {fileID: 21300000, guid: a333081d770a6084aa0f3275ba9315cd, type: 3}
+    price: 200
+    type: 7
+  - name: Wall UAC
+    id: package_uac_wall
+    description: 
+    icon: {fileID: 21300000, guid: 7b1602ab5ec5e2847bfd9f652b3b5a60, type: 3}
+    price: 200
+    type: 7
+  - name: Hero UAC
+    id: package_uac_hero
+    description: 
+    icon: {fileID: 21300000, guid: 9281e2a5898364949b13477b6bc95f5c, type: 3}
+    price: 280
+    type: 7
+  - name: Everything UAC
+    id: package_uac_everything
+    description: 
+    icon: {fileID: 21300000, guid: ab3d35026cf56a6438af1693d4e93e8e, type: 3}
+    price: 280
+    type: 7
+  - name: Builder UBC
+    id: package_ubc_builder
+    description: 
+    icon: {fileID: 21300000, guid: b96b9efac622e33409feab3900693c72, type: 3}
+    price: 500
+    type: 8
+  - name: Unit UBC
+    id: package_ubc_unit
+    description: 
+    icon: {fileID: 21300000, guid: a76ff6fb55147df4ebb3d6c81892382b, type: 3}
+    price: 500
+    type: 8
+  - name: Research UBC
+    id: package_ubc_research
+    description: 
+    icon: {fileID: 21300000, guid: 51b167d896f996345804122dcb3700b6, type: 3}
+    price: 500
+    type: 8
+  - name: Hero UBC
+    id: package_ubc_hero
+    description: 
+    icon: {fileID: 21300000, guid: b2f9167284fb7624c8f4023338509bff, type: 3}
+    price: 800
+    type: 8
+  - name: Everything UBC
+    id: package_ubc_everything
+    description: 
+    icon: {fileID: 21300000, guid: 50fdd07cfeb6d95439103014fff0cf98, type: 3}
+    price: 800
+    type: 8

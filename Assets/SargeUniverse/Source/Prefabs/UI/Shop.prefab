@@ -124,7 +124,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50efd8e7060d0be48aa421e92d0ba3e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _content: {fileID: 0}
+  _content: {fileID: 8742279201281230869}
+  _shopTabsScroll: {fileID: 555713015126992302}
+  _cardPrefab: {fileID: 3810075121263373169, guid: 21a496c40cd107e459e9811a4e9fa37a, type: 3}
 --- !u!1 &41584630822223801
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,7 +3321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Defense
+  m_text: UAC
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f726f90993e10240bc01239c810424c, type: 2}
   m_sharedMaterial: {fileID: 5594568512435939722, guid: 4f726f90993e10240bc01239c810424c, type: 2}
@@ -4606,10 +4608,10 @@ RectTransform:
   m_Father: {fileID: 5740523732846860411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
-  m_Pivot: {x: 0, y: 0.5}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928676794620974188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4643,7 +4645,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685187292278485414}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
@@ -7863,7 +7865,7 @@ GameObject:
   - component: {fileID: 6049248037601893970}
   - component: {fileID: 2562494852085808107}
   m_Layer: 5
-  m_Name: DefenseTab
+  m_Name: UacTab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8352,7 +8354,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7552955805830739560
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8916,7 +8918,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Traps
+  m_text: UBC
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f726f90993e10240bc01239c810424c, type: 2}
   m_sharedMaterial: {fileID: 5594568512435939722, guid: 4f726f90993e10240bc01239c810424c, type: 2}
@@ -9318,7 +9320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Traps
+  m_text: UBC
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4426e3913a31da94798a768f612bbaba, type: 2}
   m_sharedMaterial: {fileID: 5594568512435939722, guid: 4426e3913a31da94798a768f612bbaba, type: 2}
@@ -13151,7 +13153,7 @@ GameObject:
   - component: {fileID: 8895258718247827537}
   - component: {fileID: 4187596984042930956}
   m_Layer: 5
-  m_Name: TrapsTab
+  m_Name: UbcTab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13935,7 +13937,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Military
+  m_text: Booster
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f726f90993e10240bc01239c810424c, type: 2}
   m_sharedMaterial: {fileID: 5594568512435939722, guid: 4f726f90993e10240bc01239c810424c, type: 2}
@@ -15438,7 +15440,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Military
+  m_text: Booster
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4426e3913a31da94798a768f612bbaba, type: 2}
   m_sharedMaterial: {fileID: 5594568512435939722, guid: 4426e3913a31da94798a768f612bbaba, type: 2}
@@ -16036,7 +16038,7 @@ GameObject:
   - component: {fileID: 3300571888304002682}
   - component: {fileID: 7186054146668583792}
   m_Layer: 5
-  m_Name: MilitaryTab
+  m_Name: BoosterTab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17460,7 +17462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Defense
+  m_text: UAC
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4426e3913a31da94798a768f612bbaba, type: 2}
   m_sharedMaterial: {fileID: 5594568512435939722, guid: 4426e3913a31da94798a768f612bbaba, type: 2}
@@ -19751,6 +19753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8882495813655023589}
   - component: {fileID: 7987758542981961221}
+  - component: {fileID: 555713015126992302}
   m_Layer: 5
   m_Name: Header
   m_TagString: Untagged
@@ -19798,6 +19801,25 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &555713015126992302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8634038315587976633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a89ac72ed449b3bb789e815ff65982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tabButtons:
+  - {fileID: 3300571888304002682}
+  - {fileID: 6313671930726361659}
+  - {fileID: 6049248037601893970}
+  - {fileID: 8895258718247827537}
+  _scroll: {fileID: 3483092836152206222}
+  _scrollItems: []
 --- !u!1 &8642794910465098793
 GameObject:
   m_ObjectHideFlags: 0
