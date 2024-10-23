@@ -377,6 +377,7 @@ MonoBehaviour:
   segments: 100
   xradius: 1
   yradius: 1
+  size: 1
 --- !u!1 &2110379543739065355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1058,17 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 668586ee53071fd47b060261afd9520a, type: 3}
   - {fileID: 21300000, guid: b944b0a70bc498240a4a8c10b52bd2c6, type: 3}
   - {fileID: 21300000, guid: d0258e9cdfea3574db721904cfb329f0, type: 3}
+  _gunSprites:
+  - {fileID: 21300000, guid: 061ae99901e3a3f42a1b90890c5a4511, type: 3}
+  - {fileID: 21300000, guid: 061ae99901e3a3f42a1b90890c5a4511, type: 3}
+  - {fileID: 21300000, guid: 061ae99901e3a3f42a1b90890c5a4511, type: 3}
+  - {fileID: 21300000, guid: 061ae99901e3a3f42a1b90890c5a4511, type: 3}
+  - {fileID: 21300000, guid: a7d03ce4fa54f4746984a8d54b35a21c, type: 3}
+  - {fileID: 21300000, guid: a7d03ce4fa54f4746984a8d54b35a21c, type: 3}
+  - {fileID: 21300000, guid: a7d03ce4fa54f4746984a8d54b35a21c, type: 3}
+  - {fileID: 21300000, guid: 44484fbe04038c04daabcc1ab751209c, type: 3}
+  - {fileID: 21300000, guid: 44484fbe04038c04daabcc1ab751209c, type: 3}
+  - {fileID: 21300000, guid: 44484fbe04038c04daabcc1ab751209c, type: 3}
   _roofSprites:
   - {fileID: 21300000, guid: d4b1e4437bb415c418a687122e37d1e3, type: 3}
   - {fileID: 21300000, guid: d4b1e4437bb415c418a687122e37d1e3, type: 3}
@@ -1589,6 +1601,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 5e9378fd19fd60e43b68d8a7a993bdd6, type: 3}
     - {fileID: 21300000, guid: 26bb6da97024f7543875c2a4b1cd3a2d, type: 3}
   _delayBetweenAttackSlides: 0.1
+  _callbackDelay: -1
   _destroySprites:
   - {fileID: 21300000, guid: 11be431f21121044db83484dc6580dfb, type: 3}
   - {fileID: 21300000, guid: 78df4bfd47f36c74d88770f67bad73f0, type: 3}
