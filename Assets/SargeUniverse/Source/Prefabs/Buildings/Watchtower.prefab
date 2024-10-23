@@ -289,6 +289,17 @@ MonoBehaviour:
   - {fileID: 21300000, guid: de77f88fb4bc5e5428ed297b3c2f4a56, type: 3}
   - {fileID: 21300000, guid: c296865996d5bb5459bff3feb74f2e25, type: 3}
   - {fileID: 21300000, guid: 64644519489b6c84bbd3950fd2225118, type: 3}
+  _gunSprites:
+  - {fileID: 21300000, guid: e9bb59329f1ed9644a1dbd53657928c7, type: 3}
+  - {fileID: 21300000, guid: e9bb59329f1ed9644a1dbd53657928c7, type: 3}
+  - {fileID: 21300000, guid: e9bb59329f1ed9644a1dbd53657928c7, type: 3}
+  - {fileID: 21300000, guid: e9bb59329f1ed9644a1dbd53657928c7, type: 3}
+  - {fileID: 21300000, guid: d7712d7107fd5c1449d2111861ab6498, type: 3}
+  - {fileID: 21300000, guid: d7712d7107fd5c1449d2111861ab6498, type: 3}
+  - {fileID: 21300000, guid: d7712d7107fd5c1449d2111861ab6498, type: 3}
+  - {fileID: 21300000, guid: 0c483ab4723363a4b97deea7c955a43f, type: 3}
+  - {fileID: 21300000, guid: 0c483ab4723363a4b97deea7c955a43f, type: 3}
+  - {fileID: 21300000, guid: 0c483ab4723363a4b97deea7c955a43f, type: 3}
   _roofSprites:
   - {fileID: 21300000, guid: a0506e5944e85fe41aeac56229a07da0, type: 3}
   - {fileID: 21300000, guid: a0506e5944e85fe41aeac56229a07da0, type: 3}
@@ -837,7 +848,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 24c8e83aafb785949b47e30248cda06e, type: 3}
   _delayBetweenDestroySlides: 0.05
   _gunSpriteRenderer: {fileID: 5949885889565945525}
-  _roofSpriteRenderer: {fileID: 0}
+  _roofSpriteRenderer: {fileID: 6478924192161106158}
 --- !u!1 &7174783842891602527
 GameObject:
   m_ObjectHideFlags: 0
