@@ -9,12 +9,14 @@ namespace SargeUniverse.Scripts.Environment.Buildings
         [SerializeField] private SpriteRenderer _roofSprite = null;
         [SerializeField] private SpriteRenderer _gunSprite = null;
         [SerializeField] private List<Sprite> _towerSprites = new();
+        [SerializeField] private List<Sprite> _gunSprites = new();
         [SerializeField] private List<Sprite> _roofSprites = new();
         
         protected override void SetBuildingSprite()
         {
             var buildingLevel = BuildingData.level == 0 ? 1 : BuildingData.level;
             _buildingSprite.sprite = _towerSprites[buildingLevel - 1];
+            _gunSprite.sprite = _gunSprites[buildingLevel - 1];
             _roofSprite.sprite = _roofSprites[buildingLevel - 1];
         }
 
