@@ -6,6 +6,10 @@ namespace SargeUniverse.Scripts.Enums
         Power,
         Tachyon,
         Credits,
-        Shield
+        Shield,
+        Booster,
+        ResourcesPackage,
+        UAC,
+        UBC
     }
 }
