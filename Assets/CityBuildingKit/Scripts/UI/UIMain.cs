@@ -36,6 +36,9 @@ namespace CityBuildingKit.Scripts.UI
         [SerializeField] private TMP_Text _supplyText = null;
         [SerializeField] private Slider _powerSlider = null;
         [SerializeField] private TMP_Text _powerText = null;
+        [SerializeField] private GameObject _tachyonGroup = null;
+        [SerializeField] private Slider _tachyonSlider = null;
+        [SerializeField] private TMP_Text _tachyonText = null;
         [SerializeField] private TMP_Text _gemsText = null;
         [SerializeField] private Button _buyMoreGemsButton = null;
 
@@ -79,6 +82,8 @@ namespace CityBuildingKit.Scripts.UI
             _playerSyncController.Supplies.SubscribeForUpdate(UpdateSuppliesInfo);
             _playerSyncController.MaxPower.SubscribeForUpdate(UpdatePowerInfo);
             _playerSyncController.Power.SubscribeForUpdate(UpdatePowerInfo);
+            _playerSyncController.MaxEnergy.SubscribeForUpdate(UpdateTachyonInfo);
+            _playerSyncController.Energy.SubscribeForUpdate(UpdateTachyonInfo);
             _playerSyncController.Gems.SubscribeForUpdate(UpdateGemsInfo);
             
             _playerSyncController.MaxWorkers.SubscribeForUpdate(UpdateWorkers);
@@ -102,6 +107,8 @@ namespace CityBuildingKit.Scripts.UI
             _playerSyncController.Supplies.UnSubscribeFromUpdate(UpdateSuppliesInfo);
             _playerSyncController.MaxPower.UnSubscribeFromUpdate(UpdatePowerInfo);
             _playerSyncController.Power.UnSubscribeFromUpdate(UpdatePowerInfo);
+            _playerSyncController.MaxEnergy.UnSubscribeFromUpdate(UpdateTachyonInfo);
+            _playerSyncController.Energy.UnSubscribeFromUpdate(UpdateTachyonInfo);
             _playerSyncController.Gems.UnSubscribeFromUpdate(UpdateGemsInfo);
             
             _playerSyncController.MaxWorkers.UnSubscribeFromUpdate(UpdateWorkers);
@@ -140,6 +147,15 @@ namespace CityBuildingKit.Scripts.UI
                                  _playerSyncController.Power.GetValue() / 
                                  _playerSyncController.MaxPower.GetValue();
             _powerText.text = _playerSyncController.Power.GetValue().ToString();
+        }
+        
+        private void UpdateTachyonInfo()
+        {
+            _tachyonGroup.SetActive(_playerSyncController.MaxEnergy.GetValue() > 0);
+            _tachyonSlider.value = 1f * 
+                                 _playerSyncController.Energy.GetValue() / 
+                                 _playerSyncController.MaxEnergy.GetValue();
+            _tachyonText.text = _playerSyncController.Energy.GetValue().ToString();
         }
 
         private void UpdateGemsInfo()
