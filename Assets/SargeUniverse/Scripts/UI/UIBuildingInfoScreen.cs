@@ -27,6 +27,8 @@ namespace SargeUniverse.Scripts.UI
         [SerializeField] private StatsSlider _suppliesStorageStatsSlider = null;
         [SerializeField] private StatsSlider _powerCapacityStatsSlider = null;
         [SerializeField] private StatsSlider _powerStorageStatsSlider = null;
+        [SerializeField] private StatsSlider _tachyonCapacityStatsSlider = null;
+        [SerializeField] private StatsSlider _tachyonStorageStatsSlider = null;
         [SerializeField] private StatsSlider _housingCapacityStatsSlider = null;
         [SerializeField] private StatsSlider _damageStatsSlider = null;
         
@@ -53,6 +55,8 @@ namespace SargeUniverse.Scripts.UI
             _suppliesStorageStatsSlider.Hide();
             _powerCapacityStatsSlider.Hide();
             _powerStorageStatsSlider.Hide();
+            _tachyonCapacityStatsSlider.Hide();
+            _tachyonStorageStatsSlider.Hide();
             _housingCapacityStatsSlider.Hide();
             _damageStatsSlider.Hide();
             
@@ -93,6 +97,13 @@ namespace SargeUniverse.Scripts.UI
                     
                     _powerStorageStatsSlider.SetValues(building.BuildingData.powerCapacity);
                     _powerStorageStatsSlider.Show();
+                    
+                    _tachyonStorageStatsSlider.SetValues(building.BuildingData.energyCapacity);
+
+                    if (building.BuildingData.energyCapacity > 0)
+                    {
+                        _tachyonStorageStatsSlider.Show();
+                    }
                     break;
                 case BuildingID.supplydrop:
                     _suppliesCapacityStatsSlider.SetValues(building.BuildingData.speed);
